@@ -1,0 +1,2 @@
+dot -Tps > any.ps
+dot -Tpng > any.png

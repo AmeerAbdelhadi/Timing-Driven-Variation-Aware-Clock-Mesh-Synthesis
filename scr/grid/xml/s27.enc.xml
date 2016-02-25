@@ -1,0 +1,49 @@
+<graph>
+  <attribute name="regsn" value="3" />
+  <attribute name="polygon" value="25.080 20.140 30.020 20.140 30.020 27.550 25.080 27.550 25.080 20.140" />
+  <attribute name="label" value="(25.080,20.140)\n(30.020,27.550)" />
+  <node id="G5_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="25.840 22.610 30.020 22.610 30.020 25.080 25.840 25.080 25.840 22.610" />
+    <attribute name="label" value="G5_reg\n(25.840,22.610)(30.020,25.080)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="G5_reg" to="G6_reg">
+    <attribute name="maxsl" value="0.683" />
+    <attribute name="minsl" value="0.246" />
+    <attribute name="label" value="0.683\n0.246" />
+  </edge>
+  <node id="G7_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="25.460 25.080 29.640 25.080 29.640 27.550 25.460 27.550 25.460 25.080" />
+    <attribute name="label" value="G7_reg\n(25.460,25.080)(29.640,27.550)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="G7_reg" to="G5_reg">
+    <attribute name="maxsl" value="0.444" />
+    <attribute name="minsl" value="0.462" />
+    <attribute name="label" value="0.444\n0.462" />
+  </edge>
+  <edge from="G7_reg" to="G6_reg">
+    <attribute name="maxsl" value="0.527" />
+    <attribute name="minsl" value="0.389" />
+    <attribute name="label" value="0.527\n0.389" />
+  </edge>
+  <node id="G6_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="25.080 20.140 29.260 20.140 29.260 22.610 25.080 22.610 25.080 20.140" />
+    <attribute name="label" value="G6_reg\n(25.080,20.140)(29.260,22.610)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="G6_reg" to="G5_reg">
+    <attribute name="maxsl" value="0.518" />
+    <attribute name="minsl" value="0.395" />
+    <attribute name="label" value="0.518\n0.395" />
+  </edge>
+</graph>

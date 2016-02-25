@@ -1,0 +1,47 @@
+
+
+
+
+
+Tracing Clock blif_clk_net
+
+****** Clock Tree (blif_clk_net) Structure
+Nr. Subtrees                   : 1
+Nr. Sinks                      : 3
+Nr.          Rising  Sync Pins : 3
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+DFFSR (CLK)                             3
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (blif_clk_net) Cell: (EMPTY) Net: (blif_clk_net) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 3
+          Nr. of     Rising  Sync Pins  : 3
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock blif_clk_net
+*DEPTH 0: blif_clk_net
+ (Sync)G5_reg/CLK
+ (Sync)G7_reg/CLK
+ (Sync)G6_reg/CLK

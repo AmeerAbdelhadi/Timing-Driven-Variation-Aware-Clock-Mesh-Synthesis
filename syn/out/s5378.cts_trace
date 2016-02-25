@@ -1,0 +1,208 @@
+
+
+
+
+
+Tracing Clock blif_clk_net
+
+****** Clock Tree (blif_clk_net) Structure
+Nr. Subtrees                   : 1
+Nr. Sinks                      : 163
+Nr.          Rising  Sync Pins : 163
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+SEN_FDPSBQ_D_1 (CK)                     160
+SEN_FDPSBQ_D_2 (CK)                     3
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (blif_clk_net) Cell: (EMPTY) Net: (blif_clk_net) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 163
+          Nr. of     Rising  Sync Pins  : 163
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock blif_clk_net
+*DEPTH 0: blif_clk_net
+ (Sync)n2117gat_reg/CK
+ (Sync)n2518gat_reg/CK
+ (Sync)n2319gat_reg/CK
+ (Sync)n1821gat_reg/CK
+ (Sync)n2029gat_reg/CK
+ (Sync)n2025gat_reg/CK
+ (Sync)n2640gat_reg/CK
+ (Sync)n1332gat_reg/CK
+ (Sync)n1394gat_reg/CK
+ (Sync)n2135gat_reg/CK
+ (Sync)n1433gat_reg/CK
+ (Sync)n2044gat_reg/CK
+ (Sync)n2125gat_reg/CK
+ (Sync)n2121gat_reg/CK
+ (Sync)n1363gat_reg/CK
+ (Sync)n1312gat_reg/CK
+ (Sync)n331gat_reg/CK
+ (Sync)n152gat_reg/CK
+ (Sync)n2458gat_reg/CK
+ (Sync)n1807gat_reg/CK
+ (Sync)n2091gat_reg/CK
+ (Sync)n2522gat_reg/CK
+ (Sync)n2464gat_reg/CK
+ (Sync)n2506gat_reg/CK
+ (Sync)n2476gat_reg/CK
+ (Sync)n2526gat_reg/CK
+ (Sync)n2588gat_reg/CK
+ (Sync)n2446gat_reg/CK
+ (Sync)n2021gat_reg/CK
+ (Sync)n2468gat_reg/CK
+ (Sync)n2599gat_reg/CK
+ (Sync)n2102gat_reg/CK
+ (Sync)n2658gat_reg/CK
+ (Sync)n2510gat_reg/CK
+ (Sync)n1675gat_reg/CK
+ (Sync)n2502gat_reg/CK
+ (Sync)n1197gat_reg/CK
+ (Sync)n2040gat_reg/CK
+ (Sync)n1496gat_reg/CK
+ (Sync)n384gat_reg/CK
+ (Sync)n470gat_reg/CK
+ (Sync)n2084gat_reg/CK
+ (Sync)n1525gat_reg/CK
+ (Sync)n1588gat_reg/CK
+ (Sync)n1763gat_reg/CK
+ (Sync)n1748gat_reg/CK
+ (Sync)n1456gat_reg/CK
+ (Sync)n2099gat_reg/CK
+ (Sync)n1389gat_reg/CK
+ (Sync)n1336gat_reg/CK
+ (Sync)n2139gat_reg/CK
+ (Sync)n148gat_reg/CK
+ (Sync)n667gat_reg/CK
+ (Sync)n2182gat_reg/CK
+ (Sync)n2176gat_reg/CK
+ (Sync)n2514gat_reg/CK
+ (Sync)n2472gat_reg/CK
+ (Sync)n2390gat_reg/CK
+ (Sync)n2630gat_reg/CK
+ (Sync)n2339gat_reg/CK
+ (Sync)n2450gat_reg/CK
+ (Sync)n2095gat_reg/CK
+ (Sync)n2110gat_reg/CK
+ (Sync)n2155gat_reg/CK
+ (Sync)n2037gat_reg/CK
+ (Sync)n2179gat_reg/CK
+ (Sync)n2033gat_reg/CK
+ (Sync)n156gat_reg/CK
+ (Sync)n1829gat_reg/CK
+ (Sync)n2644gat_reg/CK
+ (Sync)n1975gat_reg/CK
+ (Sync)n2634gat_reg/CK
+ (Sync)n2495gat_reg/CK
+ (Sync)n830gat_reg/CK
+ (Sync)n2169gat_reg/CK
+ (Sync)n2270gat_reg/CK
+ (Sync)n834gat_reg/CK
+ (Sync)n707gat_reg/CK
+ (Sync)n1596gat_reg/CK
+ (Sync)n1045gat_reg/CK
+ (Sync)n1226gat_reg/CK
+ (Sync)n2592gat_reg/CK
+ (Sync)n1316gat_reg/CK
+ (Sync)n1740gat_reg/CK
+ (Sync)n1340gat_reg/CK
+ (Sync)n2622gat_reg/CK
+ (Sync)n1850gat_reg/CK
+ (Sync)n2207gat_reg/CK
+ (Sync)n1767gat_reg/CK
+ (Sync)n838gat_reg/CK
+ (Sync)n1462gat_reg/CK
+ (Sync)n1035gat_reg/CK
+ (Sync)n256gat_reg/CK
+ (Sync)n931gat_reg/CK
+ (Sync)n463gat_reg/CK
+ (Sync)n2626gat_reg/CK
+ (Sync)n2403gat_reg/CK
+ (Sync)n1834gat_reg/CK
+ (Sync)n1771gat_reg/CK
+ (Sync)n1121gat_reg/CK
+ (Sync)n2440gat_reg/CK
+ (Sync)n1241gat_reg/CK
+ (Sync)n2266gat_reg/CK
+ (Sync)n865gat_reg/CK
+ (Sync)n699gat_reg/CK
+ (Sync)n1294gat_reg/CK
+ (Sync)n2190gat_reg/CK
+ (Sync)n561gat_reg/CK
+ (Sync)n314gat_reg/CK
+ (Sync)n1899gat_reg/CK
+ (Sync)n1282gat_reg/CK
+ (Sync)n1072gat_reg/CK
+ (Sync)n2543gat_reg/CK
+ (Sync)n366gat_reg/CK
+ (Sync)n2490gat_reg/CK
+ (Sync)n1135gat_reg/CK
+ (Sync)n883gat_reg/CK
+ (Sync)n580gat_reg/CK
+ (Sync)n318gat_reg/CK
+ (Sync)n820gat_reg/CK
+ (Sync)n1508gat_reg/CK
+ (Sync)n684gat_reg/CK
+ (Sync)n322gat_reg/CK
+ (Sync)n1678gat_reg/CK
+ (Sync)n1148gat_reg/CK
+ (Sync)n1080gat_reg/CK
+ (Sync)n659gat_reg/CK
+ (Sync)n388gat_reg/CK
+ (Sync)n2203gat_reg/CK
+ (Sync)n816gat_reg/CK
+ (Sync)n327gat_reg/CK
+ (Sync)n553gat_reg/CK
+ (Sync)n2454gat_reg/CK
+ (Sync)n824gat_reg/CK
+ (Sync)n777gat_reg/CK
+ (Sync)n861gat_reg/CK
+ (Sync)n842gat_reg/CK
+ (Sync)n271gat_reg/CK
+ (Sync)n160gat_reg/CK
+ (Sync)n680gat_reg/CK
+ (Sync)n1068gat_reg/CK
+ (Sync)n957gat_reg/CK
+ (Sync)n584gat_reg/CK
+ (Sync)n919gat_reg/CK
+ (Sync)n2343gat_reg/CK
+ (Sync)n614gat_reg/CK
+ (Sync)n341gat_reg/CK
+ (Sync)n1880gat_reg/CK
+ (Sync)n846gat_reg/CK
+ (Sync)n2061gat_reg/CK
+ (Sync)n2394gat_reg/CK
+ (Sync)n2407gat_reg/CK
+ (Sync)n1871gat_reg/CK
+ (Sync)n337gat_reg/CK
+ (Sync)n673gat_reg/CK
+ (Sync)n398gat_reg/CK
+ (Sync)n2399gat_reg/CK
+ (Sync)n2562gat_reg/CK
+ (Sync)n2143gat_reg/CK
+ (Sync)n402gat_reg/CK
+ (Sync)n2262gat_reg/CK
+ (Sync)n2347gat_reg/CK
+ (Sync)n1775gat_reg/CK

@@ -1,0 +1,495 @@
+<graph>
+  <attribute name="regsn" value="15" />
+  <attribute name="polygon" value="20.140 32.490 43.700 32.490 43.700 44.840 20.140 44.840 20.140 32.490" />
+  <attribute name="label" value="(20.140,32.490)\n(43.700,44.840)" />
+  <node id="CT0_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="28.500 34.960 32.680 34.960 32.680 37.430 28.500 37.430 28.500 34.960" />
+    <attribute name="label" value="CT0_reg\n(28.500,34.960)(32.680,37.430)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="CT0_reg" to="AX0_reg">
+    <attribute name="maxsl" value="0.373" />
+    <attribute name="minsl" value="0.421" />
+    <attribute name="label" value="0.373\n0.421" />
+  </edge>
+  <edge from="CT0_reg" to="AX1_reg">
+    <attribute name="maxsl" value="0.340" />
+    <attribute name="minsl" value="0.424" />
+    <attribute name="label" value="0.340\n0.424" />
+  </edge>
+  <edge from="CT0_reg" to="AX2_reg">
+    <attribute name="maxsl" value="0.364" />
+    <attribute name="minsl" value="0.434" />
+    <attribute name="label" value="0.364\n0.434" />
+  </edge>
+  <edge from="CT0_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.138" />
+    <attribute name="minsl" value="0.587" />
+    <attribute name="label" value="0.138\n0.587" />
+  </edge>
+  <edge from="CT0_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.132" />
+    <attribute name="minsl" value="0.612" />
+    <attribute name="label" value="0.132\n0.612" />
+  </edge>
+  <edge from="CT0_reg" to="MRVQN2_reg">
+    <attribute name="maxsl" value="0.084" />
+    <attribute name="minsl" value="0.403" />
+    <attribute name="label" value="0.084\n0.403" />
+  </edge>
+  <edge from="CT0_reg" to="CT1_reg">
+    <attribute name="maxsl" value="0.419" />
+    <attribute name="minsl" value="0.364" />
+    <attribute name="label" value="0.419\n0.364" />
+  </edge>
+  <edge from="CT0_reg" to="MRVQN1_reg">
+    <attribute name="maxsl" value="0.080" />
+    <attribute name="minsl" value="0.408" />
+    <attribute name="label" value="0.080\n0.408" />
+  </edge>
+  <edge from="CT0_reg" to="ACVQN1_reg">
+    <attribute name="maxsl" value="0.133" />
+    <attribute name="minsl" value="0.613" />
+    <attribute name="label" value="0.133\n0.613" />
+  </edge>
+  <edge from="CT0_reg" to="MRVQN3_reg">
+    <attribute name="maxsl" value="0.063" />
+    <attribute name="minsl" value="0.401" />
+    <attribute name="label" value="0.063\n0.401" />
+  </edge>
+  <edge from="CT0_reg" to="ACVQN0_reg">
+    <attribute name="maxsl" value="0.137" />
+    <attribute name="minsl" value="0.613" />
+    <attribute name="label" value="0.137\n0.613" />
+  </edge>
+  <edge from="CT0_reg" to="CT2_reg">
+    <attribute name="maxsl" value="0.420" />
+    <attribute name="minsl" value="0.359" />
+    <attribute name="label" value="0.420\n0.359" />
+  </edge>
+  <edge from="CT0_reg" to="MRVQN0_reg">
+    <attribute name="maxsl" value="0.056" />
+    <attribute name="minsl" value="0.427" />
+    <attribute name="label" value="0.056\n0.427" />
+  </edge>
+  <edge from="CT0_reg" to="AX3_reg">
+    <attribute name="maxsl" value="0.364" />
+    <attribute name="minsl" value="0.431" />
+    <attribute name="label" value="0.364\n0.431" />
+  </edge>
+  <node id="CT1_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="20.900 42.370 25.080 42.370 25.080 44.840 20.900 44.840 20.900 42.370" />
+    <attribute name="label" value="CT1_reg\n(20.900,42.370)(25.080,44.840)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="CT1_reg" to="MRVQN3_reg">
+    <attribute name="maxsl" value="0.050" />
+    <attribute name="minsl" value="0.415" />
+    <attribute name="label" value="0.050\n0.415" />
+  </edge>
+  <edge from="CT1_reg" to="MRVQN2_reg">
+    <attribute name="maxsl" value="0.071" />
+    <attribute name="minsl" value="0.416" />
+    <attribute name="label" value="0.071\n0.416" />
+  </edge>
+  <edge from="CT1_reg" to="AX2_reg">
+    <attribute name="maxsl" value="0.328" />
+    <attribute name="minsl" value="0.470" />
+    <attribute name="label" value="0.328\n0.470" />
+  </edge>
+  <edge from="CT1_reg" to="MRVQN0_reg">
+    <attribute name="maxsl" value="0.034" />
+    <attribute name="minsl" value="0.440" />
+    <attribute name="label" value="0.034\n0.440" />
+  </edge>
+  <edge from="CT1_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.119" />
+    <attribute name="minsl" value="0.648" />
+    <attribute name="label" value="0.119\n0.648" />
+  </edge>
+  <edge from="CT1_reg" to="CT0_reg">
+    <attribute name="maxsl" value="0.452" />
+    <attribute name="minsl" value="0.411" />
+    <attribute name="label" value="0.452\n0.411" />
+  </edge>
+  <edge from="CT1_reg" to="ACVQN0_reg">
+    <attribute name="maxsl" value="0.124" />
+    <attribute name="minsl" value="0.649" />
+    <attribute name="label" value="0.124\n0.649" />
+  </edge>
+  <edge from="CT1_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.125" />
+    <attribute name="minsl" value="0.622" />
+    <attribute name="label" value="0.125\n0.622" />
+  </edge>
+  <edge from="CT1_reg" to="MRVQN1_reg">
+    <attribute name="maxsl" value="0.066" />
+    <attribute name="minsl" value="0.422" />
+    <attribute name="label" value="0.066\n0.422" />
+  </edge>
+  <edge from="CT1_reg" to="ACVQN1_reg">
+    <attribute name="maxsl" value="0.120" />
+    <attribute name="minsl" value="0.649" />
+    <attribute name="label" value="0.120\n0.649" />
+  </edge>
+  <edge from="CT1_reg" to="AX3_reg">
+    <attribute name="maxsl" value="0.328" />
+    <attribute name="minsl" value="0.466" />
+    <attribute name="label" value="0.328\n0.466" />
+  </edge>
+  <edge from="CT1_reg" to="CT2_reg">
+    <attribute name="maxsl" value="0.370" />
+    <attribute name="minsl" value="0.385" />
+    <attribute name="label" value="0.370\n0.385" />
+  </edge>
+  <edge from="CT1_reg" to="AX1_reg">
+    <attribute name="maxsl" value="0.305" />
+    <attribute name="minsl" value="0.460" />
+    <attribute name="label" value="0.305\n0.460" />
+  </edge>
+  <edge from="CT1_reg" to="AX0_reg">
+    <attribute name="maxsl" value="0.338" />
+    <attribute name="minsl" value="0.457" />
+    <attribute name="label" value="0.338\n0.457" />
+  </edge>
+  <node id="CT2_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="20.900 39.900 25.080 39.900 25.080 42.370 20.900 42.370 20.900 39.900" />
+    <attribute name="label" value="CT2_reg\n(20.900,39.900)(25.080,42.370)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="CT2_reg" to="MRVQN1_reg">
+    <attribute name="maxsl" value="0.072" />
+    <attribute name="minsl" value="0.416" />
+    <attribute name="label" value="0.072\n0.416" />
+  </edge>
+  <edge from="CT2_reg" to="CT1_reg">
+    <attribute name="maxsl" value="0.408" />
+    <attribute name="minsl" value="0.477" />
+    <attribute name="label" value="0.408\n0.477" />
+  </edge>
+  <edge from="CT2_reg" to="AX2_reg">
+    <attribute name="maxsl" value="0.330" />
+    <attribute name="minsl" value="0.460" />
+    <attribute name="label" value="0.330\n0.460" />
+  </edge>
+  <edge from="CT2_reg" to="ACVQN0_reg">
+    <attribute name="maxsl" value="0.129" />
+    <attribute name="minsl" value="0.638" />
+    <attribute name="label" value="0.129\n0.638" />
+  </edge>
+  <edge from="CT2_reg" to="ACVQN1_reg">
+    <attribute name="maxsl" value="0.125" />
+    <attribute name="minsl" value="0.639" />
+    <attribute name="label" value="0.125\n0.639" />
+  </edge>
+  <edge from="CT2_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.130" />
+    <attribute name="minsl" value="0.612" />
+    <attribute name="label" value="0.130\n0.612" />
+  </edge>
+  <edge from="CT2_reg" to="CT0_reg">
+    <attribute name="maxsl" value="0.502" />
+    <attribute name="minsl" value="0.405" />
+    <attribute name="label" value="0.502\n0.405" />
+  </edge>
+  <edge from="CT2_reg" to="AX0_reg">
+    <attribute name="maxsl" value="0.339" />
+    <attribute name="minsl" value="0.447" />
+    <attribute name="label" value="0.339\n0.447" />
+  </edge>
+  <edge from="CT2_reg" to="MRVQN3_reg">
+    <attribute name="maxsl" value="0.055" />
+    <attribute name="minsl" value="0.410" />
+    <attribute name="label" value="0.055\n0.410" />
+  </edge>
+  <edge from="CT2_reg" to="MRVQN2_reg">
+    <attribute name="maxsl" value="0.076" />
+    <attribute name="minsl" value="0.411" />
+    <attribute name="label" value="0.076\n0.411" />
+  </edge>
+  <edge from="CT2_reg" to="AX3_reg">
+    <attribute name="maxsl" value="0.330" />
+    <attribute name="minsl" value="0.456" />
+    <attribute name="label" value="0.330\n0.456" />
+  </edge>
+  <edge from="CT2_reg" to="MRVQN0_reg">
+    <attribute name="maxsl" value="0.048" />
+    <attribute name="minsl" value="0.435" />
+    <attribute name="label" value="0.048\n0.435" />
+  </edge>
+  <edge from="CT2_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.124" />
+    <attribute name="minsl" value="0.638" />
+    <attribute name="label" value="0.124\n0.638" />
+  </edge>
+  <edge from="CT2_reg" to="AX1_reg">
+    <attribute name="maxsl" value="0.307" />
+    <attribute name="minsl" value="0.450" />
+    <attribute name="label" value="0.307\n0.450" />
+  </edge>
+  <node id="MRVQN0_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="28.880 39.900 33.060 39.900 33.060 42.370 28.880 42.370 28.880 39.900" />
+    <attribute name="label" value="MRVQN0_reg\n(28.880,39.900)(33.060,42.370)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="MRVQN0_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.202" />
+    <attribute name="minsl" value="0.376" />
+    <attribute name="label" value="0.202\n0.376" />
+  </edge>
+  <edge from="MRVQN0_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.100" />
+    <attribute name="minsl" value="0.503" />
+    <attribute name="label" value="0.100\n0.503" />
+  </edge>
+  <edge from="MRVQN0_reg" to="ACVQN0_reg">
+    <attribute name="maxsl" value="0.218" />
+    <attribute name="minsl" value="0.475" />
+    <attribute name="label" value="0.218\n0.475" />
+  </edge>
+  <edge from="MRVQN0_reg" to="ACVQN1_reg">
+    <attribute name="maxsl" value="0.126" />
+    <attribute name="minsl" value="0.548" />
+    <attribute name="label" value="0.126\n0.548" />
+  </edge>
+  <edge from="MRVQN0_reg" to="MRVQN3_reg">
+    <attribute name="maxsl" value="0.361" />
+    <attribute name="minsl" value="0.451" />
+    <attribute name="label" value="0.361\n0.451" />
+  </edge>
+  <node id="AX0_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="26.600 32.490 30.780 32.490 30.780 34.960 26.600 34.960 26.600 32.490" />
+    <attribute name="label" value="AX0_reg\n(26.600,32.490)(30.780,34.960)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="AX0_reg" to="ACVQN1_reg">
+    <attribute name="maxsl" value="0.212" />
+    <attribute name="minsl" value="0.641" />
+    <attribute name="label" value="0.212\n0.641" />
+  </edge>
+  <edge from="AX0_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.290" />
+    <attribute name="minsl" value="0.556" />
+    <attribute name="label" value="0.290\n0.556" />
+  </edge>
+  <edge from="AX0_reg" to="ACVQN0_reg">
+    <attribute name="maxsl" value="0.299" />
+    <attribute name="minsl" value="0.465" />
+    <attribute name="label" value="0.299\n0.465" />
+  </edge>
+  <edge from="AX0_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.188" />
+    <attribute name="minsl" value="0.613" />
+    <attribute name="label" value="0.188\n0.613" />
+  </edge>
+  <edge from="AX0_reg" to="MRVQN3_reg">
+    <attribute name="maxsl" value="0.394" />
+    <attribute name="minsl" value="0.433" />
+    <attribute name="label" value="0.394\n0.433" />
+  </edge>
+  <node id="AX1_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="22.420 32.490 26.600 32.490 26.600 34.960 22.420 34.960 22.420 32.490" />
+    <attribute name="label" value="AX1_reg\n(22.420,32.490)(26.600,34.960)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="AX1_reg" to="ACVQN0_reg">
+    <attribute name="maxsl" value="0.272" />
+    <attribute name="minsl" value="0.456" />
+    <attribute name="label" value="0.272\n0.456" />
+  </edge>
+  <edge from="AX1_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.264" />
+    <attribute name="minsl" value="0.578" />
+    <attribute name="label" value="0.264\n0.578" />
+  </edge>
+  <edge from="AX1_reg" to="ACVQN1_reg">
+    <attribute name="maxsl" value="0.185" />
+    <attribute name="minsl" value="0.636" />
+    <attribute name="label" value="0.185\n0.636" />
+  </edge>
+  <edge from="AX1_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.162" />
+    <attribute name="minsl" value="0.635" />
+    <attribute name="label" value="0.162\n0.635" />
+  </edge>
+  <node id="AX2_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="38.380 32.490 42.560 32.490 42.560 34.960 38.380 34.960 38.380 32.490" />
+    <attribute name="label" value="AX2_reg\n(38.380,32.490)(42.560,34.960)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="AX2_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.323" />
+    <attribute name="minsl" value="0.401" />
+    <attribute name="label" value="0.323\n0.401" />
+  </edge>
+  <edge from="AX2_reg" to="ACVQN1_reg">
+    <attribute name="maxsl" value="0.342" />
+    <attribute name="minsl" value="0.483" />
+    <attribute name="label" value="0.342\n0.483" />
+  </edge>
+  <edge from="AX2_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.425" />
+    <attribute name="minsl" value="0.344" />
+    <attribute name="label" value="0.425\n0.344" />
+  </edge>
+  <node id="AX3_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="32.680 34.960 36.860 34.960 36.860 37.430 32.680 37.430 32.680 34.960" />
+    <attribute name="label" value="AX3_reg\n(32.680,34.960)(36.860,37.430)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="AX3_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.490" />
+    <attribute name="minsl" value="0.357" />
+    <attribute name="label" value="0.490\n0.357" />
+  </edge>
+  <edge from="AX3_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.383" />
+    <attribute name="minsl" value="0.407" />
+    <attribute name="label" value="0.383\n0.407" />
+  </edge>
+  <node id="ACVQN3_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="34.200 32.490 38.380 32.490 38.380 34.960 34.200 34.960 34.200 32.490" />
+    <attribute name="label" value="ACVQN3_reg\n(34.200,32.490)(38.380,34.960)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="ACVQN3_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.286" />
+    <attribute name="minsl" value="0.422" />
+    <attribute name="label" value="0.286\n0.422" />
+  </edge>
+  <node id="ACVQN2_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="36.860 37.430 41.040 37.430 41.040 39.900 36.860 39.900 36.860 37.430" />
+    <attribute name="label" value="ACVQN2_reg\n(36.860,37.430)(41.040,39.900)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="ACVQN2_reg" to="ACVQN1_reg">
+    <attribute name="maxsl" value="0.213" />
+    <attribute name="minsl" value="0.445" />
+    <attribute name="label" value="0.213\n0.445" />
+  </edge>
+  <edge from="ACVQN2_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.317" />
+    <attribute name="minsl" value="0.469" />
+    <attribute name="label" value="0.317\n0.469" />
+  </edge>
+  <node id="ACVQN1_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="24.320 34.960 28.500 34.960 28.500 37.430 24.320 37.430 24.320 34.960" />
+    <attribute name="label" value="ACVQN1_reg\n(24.320,34.960)(28.500,37.430)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="ACVQN1_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.163" />
+    <attribute name="minsl" value="0.574" />
+    <attribute name="label" value="0.163\n0.574" />
+  </edge>
+  <edge from="ACVQN1_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.265" />
+    <attribute name="minsl" value="0.517" />
+    <attribute name="label" value="0.265\n0.517" />
+  </edge>
+  <edge from="ACVQN1_reg" to="ACVQN0_reg">
+    <attribute name="maxsl" value="0.281" />
+    <attribute name="minsl" value="0.418" />
+    <attribute name="label" value="0.281\n0.418" />
+  </edge>
+  <node id="ACVQN0_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="20.140 34.960 24.320 34.960 24.320 37.430 20.140 37.430 20.140 34.960" />
+    <attribute name="label" value="ACVQN0_reg\n(20.140,34.960)(24.320,37.430)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="ACVQN0_reg" to="MRVQN3_reg">
+    <attribute name="maxsl" value="0.396" />
+    <attribute name="minsl" value="0.393" />
+    <attribute name="label" value="0.396\n0.393" />
+  </edge>
+  <edge from="ACVQN0_reg" to="ACVQN2_reg">
+    <attribute name="maxsl" value="0.164" />
+    <attribute name="minsl" value="0.611" />
+    <attribute name="label" value="0.164\n0.611" />
+  </edge>
+  <edge from="ACVQN0_reg" to="ACVQN1_reg">
+    <attribute name="maxsl" value="0.189" />
+    <attribute name="minsl" value="0.639" />
+    <attribute name="label" value="0.189\n0.639" />
+  </edge>
+  <edge from="ACVQN0_reg" to="ACVQN3_reg">
+    <attribute name="maxsl" value="0.266" />
+    <attribute name="minsl" value="0.554" />
+    <attribute name="label" value="0.266\n0.554" />
+  </edge>
+  <node id="MRVQN3_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="34.200 39.900 38.380 39.900 38.380 42.370 34.200 42.370 34.200 39.900" />
+    <attribute name="label" value="MRVQN3_reg\n(34.200,39.900)(38.380,42.370)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="MRVQN3_reg" to="MRVQN2_reg">
+    <attribute name="maxsl" value="0.618" />
+    <attribute name="minsl" value="0.276" />
+    <attribute name="label" value="0.618\n0.276" />
+  </edge>
+  <node id="MRVQN2_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="39.520 39.900 43.700 39.900 43.700 42.370 39.520 42.370 39.520 39.900" />
+    <attribute name="label" value="MRVQN2_reg\n(39.520,39.900)(43.700,42.370)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="MRVQN2_reg" to="MRVQN1_reg">
+    <attribute name="maxsl" value="0.621" />
+    <attribute name="minsl" value="0.271" />
+    <attribute name="label" value="0.621\n0.271" />
+  </edge>
+  <node id="MRVQN1_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="37.240 42.370 41.420 42.370 41.420 44.840 37.240 44.840 37.240 42.370" />
+    <attribute name="label" value="MRVQN1_reg\n(37.240,42.370)(41.420,44.840)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="MRVQN1_reg" to="MRVQN0_reg">
+    <attribute name="maxsl" value="0.583" />
+    <attribute name="minsl" value="0.299" />
+    <attribute name="label" value="0.583\n0.299" />
+  </edge>
+</graph>

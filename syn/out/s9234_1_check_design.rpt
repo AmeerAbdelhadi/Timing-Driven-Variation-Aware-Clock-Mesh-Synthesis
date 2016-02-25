@@ -1,0 +1,738 @@
+Check Design Summary
+Generated Date: Sun May  3 23:19:23 2009
+Host Name: apollo
+
+
+==============================
+Physical Library(LEF) Integrity Check
+==============================
+    ------------------------------
+    Cell dimensions not interger multiple of its site
+    ------------------------------
+    Cell Cell Dimension Site Dimension 
+    XOR2X1 3420 4940 760 4940 
+    XNOR2X1 3420 4940 760 4940 
+    TBUFX2 2660 4940 760 4940 
+    TBUFX1 1900 4940 760 4940 
+    OR2X2 1900 4940 760 4940 
+    OAI21X1 1900 4940 760 4940 
+    NOR3X1 1900 4940 760 4940 
+    NAND3X1 1900 4940 760 4940 
+    LATCH 3420 4940 760 4940 
+    INVX8 2660 4940 760 4940 
+    INVX2 1140 4940 760 4940 
+    INVX1 1140 4940 760 4940 
+    HAX1 4180 4940 760 4940 
+    FAX1 7220 4940 760 4940 
+    DFFNEGX1 5700 4940 760 4940 
+    CLKBUF3 7220 4940 760 4940 
+    CLKBUF2 5700 4940 760 4940 
+    CLKBUF1 4180 4940 760 4940 
+    AOI21X1 1900 4940 760 4940 
+    AND2X2 1900 4940 760 4940 
+    Cells with missing LEF 0 
+    Cells with missing dimension 0 
+    Cells dimesions not multiple integer of site 20 
+Cells pin with missing direction: 0 
+Cells pin with missing geometry: 0 
+Cells PG Pins with missing geometry: 0 
+
+==============================
+Timing information check
+==============================
+    ------------------------------
+    Cells with missing timing data
+    ------------------------------
+    OAI22X1 
+    Cells with missing Timing data 1 
+
+==============================
+Top level netlist Check
+==============================
+Ports Connect to Core Cells: 0 
+Ports Connect to multiple Pads: 0 
+Floating Ports: 0 
+
+==============================
+Instance Pin Check
+==============================
+    Output pins connected to Power Ground net 0 
+    ------------------------------
+    Floating Instance terminals
+    ------------------------------
+    TiHi/ TieLo Term Type Term Name Inst Type Inst Name 
+    TieHi  Input S  g43_reg 
+    TieHi  Input S  g666_reg 
+    TieHi  Input S  g485_reg 
+    TieHi  Input S  g668_reg 
+    TieHi  Input S  g586_reg 
+    TieHi  Input S  g582_reg 
+    TieHi  Input S  g578_reg 
+    TieHi  Input S  g594_reg 
+    TieHi  Input S  g590_reg 
+    TieHi  Input S  g574_reg 
+    TieHi  Input S  g631_reg 
+    TieHi  Input S  g628_reg 
+    TieHi  Input S  g625_reg 
+    TieHi  Input S  g622_reg 
+    TieHi  Input S  g619_reg 
+    TieHi  Input S  g616_reg 
+    TieHi  Input S  g613_reg 
+    TieHi  Input S  g610_reg 
+    TieHi  Input S  g602_reg 
+    TieHi  Input S  g457_reg 
+    TieHi  Input S  g536_reg 
+    TieHi  Input S  g260_reg 
+    TieHi  Input S  g571_reg 
+    TieHi  Input S  g254_reg 
+    TieHi  Input S  g654_reg 
+    TieHi  Input S  g248_reg 
+    TieHi  Input S  g650_reg 
+    TieHi  Input S  g242_reg 
+    TieHi  Input S  g646_reg 
+    TieHi  Input S  g236_reg 
+    TieHi  Input S  g606_reg 
+    TieHi  Input S  g230_reg 
+    TieHi  Input S  g642_reg 
+    TieHi  Input S  g224_reg 
+    TieHi  Input S  g634_reg 
+    TieHi  Input S  g218_reg 
+    TieHi  Input S  g598_reg 
+    TieHi  Input S  g638_reg 
+    TieHi  Input S  g667_reg 
+    TieHi  Input S  g212_reg 
+    TieHi  Input S  g500_reg 
+    TieHi  Input S  g677_reg 
+    TieHi  Input S  g1_reg 
+    TieHi  Input S  g3_reg 
+    TieHi  Input S  g461_reg 
+    TieHi  Input S  g532_reg 
+    TieHi  Input S  g496_reg 
+    TieHi  Input S  g486_reg 
+    TieHi  Input S  g669_reg 
+    TieHi  Input S  g545_reg 
+    TieHi  Input S  g676_reg 
+    TieHi  Input S  g2_reg 
+    TieHi  Input S  g7_reg 
+    TieHi  Input S  g672_reg 
+    TieHi  Input S  g48_reg 
+    TieHi  Input S  g548_reg 
+    TieHi  Input S  g504_reg 
+    TieHi  Input S  g492_reg 
+    TieHi  Input S  g489_reg 
+    TieHi  Input S  g684_reg 
+    TieHi  Input S  g28_reg 
+    TieHi  Input S  g33_reg 
+    TieHi  Input S  g528_reg 
+    TieHi  Input S  g434_reg 
+    TieHi  Input S  g430_reg 
+    TieHi  Input S  g426_reg 
+    TieHi  Input S  g422_reg 
+    TieHi  Input S  g418_reg 
+    TieHi  Input S  g414_reg 
+    TieHi  Input S  g410_reg 
+    TieHi  Input S  g406_reg 
+    TieHi  Input S  g402_reg 
+    TieHi  Input S  g465_reg 
+    TieHi  Input S  g683_reg 
+    TieHi  Input S  g24_reg 
+    TieHi  Input S  g29_reg 
+    TieHi  Input S  g437_reg 
+    TieHi  Input S  g681_reg 
+    TieHi  Input S  g14_reg 
+    TieHi  Input S  g19_reg 
+    TieHi  Input S  g516_reg 
+    TieHi  Input S  g682_reg 
+    TieHi  Input S  g18_reg 
+    TieHi  Input S  g25_reg 
+    TieHi  Input S  g520_reg 
+    TieHi  Input S  g441_reg 
+    TieHi  Input S  g445_reg 
+    TieHi  Input S  g206_reg 
+    TieHi  Input S  g211_reg 
+    TieHi  Input S  g210_reg 
+    TieHi  Input S  g209_reg 
+    TieHi  Input S  g208_reg 
+    TieHi  Input S  g207_reg 
+    TieHi  Input S  g693_reg 
+    TieHi  Input S  g10_reg 
+    TieHi  Input S  g15_reg 
+    TieHi  Input S  g449_reg 
+    TieHi  Input S  g297_reg 
+    TieHi  Input S  g554_reg 
+    TieHi  Input S  g541_reg 
+    TieHi  Input S  g281_reg 
+    TieHi  Input S  g280_reg 
+    TieHi  Input S  g276_reg 
+    TieHi  Input S  g283_reg 
+    TieHi  Input S  g278_reg 
+    TieHi  Input S  g692_reg 
+    TieHi  Input S  g6_reg 
+    TieHi  Input S  g675_reg 
+    TieHi  Input S  g11_reg 
+    TieHi  Input S  g453_reg 
+    TieHi  Input S  g293_reg 
+    TieHi  Input S  g551_reg 
+    TieHi  Input S  g282_reg 
+    TieHi  Input S  g508_reg 
+    TieHi  Input S  g680_reg 
+    TieHi  Input S  g678_reg 
+    TieHi  Input S  g679_reg 
+    TieHi  Input S  g277_reg 
+    TieHi  Input S  g279_reg 
+    TieHi  Input S  g478_reg 
+    TieHi  Input S  g665_reg 
+    TieHi  Input S  g269_reg 
+    TieHi  Input S  g512_reg 
+    TieHi  Input S  g205_reg 
+    TieHi  Input S  g691_reg 
+    TieHi  Input S  g204_reg 
+    TieHi  Input S  g197_reg 
+    TieHi  Input S  g695_reg 
+    TieHi  Input S  g694_reg 
+    TieHi  Input S  g658_reg 
+    TieHi  Input S  g662_reg 
+    TieHi  Input S  g266_reg 
+    TieHi  Input S  g524_reg 
+    TieHi  Input S  g696_reg 
+    TieHi  Input S  g699_reg 
+    TieHi  Input S  g471_reg 
+    TieHi  Input S  g664_reg 
+    TieHi  Input S  g663_reg 
+    TieHi  Input S  g685_reg 
+    TieHi  Input S  g697_reg 
+    TieHi  Input S  g687_reg 
+    TieHi  Input S  g688_reg 
+    TieHi  Input S  g698_reg 
+    TieHi  Input S  g689_reg 
+    TieHi  Input S  g690_reg 
+    Floating Instance terminals 145 
+    Floating IO terms 0 
+    Tie Hi/Lo output terms floating 0 
+    Output term shorted to Power Ground net 0 
+
+==============================
+Multiple driven netlist Check
+==============================
+Multiple driven nets: 0 
+Undriven nets: 0 
+Parallel Driving nets: 0 
+Tristate Driving nets: 0 
+Output Floating nets(No FanOut): 10 
+Hign Fanout nets (>50): 2 
+
+==============================
+Sub Module Port Definition Check
+==============================
+Tie Hi/Lo instances connected to output: 0 
+Verilog output port connected to outside driver: 0 
+
+==============================
+Dont use cells used in design
+==============================
+Dont use cells in design: 0 
+
+==============================
+I/O Pin Check
+==============================
+    ------------------------------
+    I/O Pin not placed
+    ------------------------------
+    blif_clk_net 
+        ------------------------------
+        I/O pins connected to non IO insts (fine for a block though)
+        ------------------------------
+        I/O Pin Non I/O Instance 
+        blif_clk_net g690_reg 
+        blif_clk_net g689_reg 
+        blif_clk_net g698_reg 
+        blif_clk_net g688_reg 
+        blif_clk_net g687_reg 
+        blif_clk_net g697_reg 
+        blif_clk_net g685_reg 
+        blif_clk_net g663_reg 
+        blif_clk_net g664_reg 
+        blif_clk_net g471_reg 
+        blif_clk_net g699_reg 
+        blif_clk_net g696_reg 
+        blif_clk_net g524_reg 
+        blif_clk_net g266_reg 
+        blif_clk_net g662_reg 
+        blif_clk_net g658_reg 
+        blif_clk_net g694_reg 
+        blif_clk_net g695_reg 
+        blif_clk_net g197_reg 
+        blif_clk_net g204_reg 
+        blif_clk_net g691_reg 
+        blif_clk_net g205_reg 
+        blif_clk_net g512_reg 
+        blif_clk_net g269_reg 
+        blif_clk_net g665_reg 
+        blif_clk_net g478_reg 
+        blif_clk_net g279_reg 
+        blif_clk_net g277_reg 
+        blif_clk_net g679_reg 
+        blif_clk_net g678_reg 
+        blif_clk_net g680_reg 
+        blif_clk_net g508_reg 
+        blif_clk_net g282_reg 
+        blif_clk_net g551_reg 
+        blif_clk_net g293_reg 
+        blif_clk_net g453_reg 
+        blif_clk_net g11_reg 
+        blif_clk_net g675_reg 
+        blif_clk_net g6_reg 
+        blif_clk_net g692_reg 
+        blif_clk_net g278_reg 
+        blif_clk_net g283_reg 
+        blif_clk_net g276_reg 
+        blif_clk_net g280_reg 
+        blif_clk_net g281_reg 
+        blif_clk_net g541_reg 
+        blif_clk_net g554_reg 
+        blif_clk_net g297_reg 
+        blif_clk_net g449_reg 
+        blif_clk_net g15_reg 
+        blif_clk_net g10_reg 
+        blif_clk_net g693_reg 
+        blif_clk_net g207_reg 
+        blif_clk_net g208_reg 
+        blif_clk_net g209_reg 
+        blif_clk_net g210_reg 
+        blif_clk_net g211_reg 
+        blif_clk_net g206_reg 
+        blif_clk_net g445_reg 
+        blif_clk_net g441_reg 
+        blif_clk_net g520_reg 
+        blif_clk_net g25_reg 
+        blif_clk_net g18_reg 
+        blif_clk_net g682_reg 
+        blif_clk_net g516_reg 
+        blif_clk_net g19_reg 
+        blif_clk_net g14_reg 
+        blif_clk_net g681_reg 
+        blif_clk_net g437_reg 
+        blif_clk_net g29_reg 
+        blif_clk_net g24_reg 
+        blif_clk_net g683_reg 
+        blif_clk_net g465_reg 
+        blif_clk_net g402_reg 
+        blif_clk_net g406_reg 
+        blif_clk_net g410_reg 
+        blif_clk_net g414_reg 
+        blif_clk_net g418_reg 
+        blif_clk_net g422_reg 
+        blif_clk_net g426_reg 
+        blif_clk_net g430_reg 
+        blif_clk_net g434_reg 
+        blif_clk_net g528_reg 
+        blif_clk_net g33_reg 
+        blif_clk_net g28_reg 
+        blif_clk_net g684_reg 
+        blif_clk_net g489_reg 
+        blif_clk_net g492_reg 
+        blif_clk_net g504_reg 
+        blif_clk_net g548_reg 
+        blif_clk_net g48_reg 
+        blif_clk_net g672_reg 
+        blif_clk_net g7_reg 
+        blif_clk_net g2_reg 
+        blif_clk_net g676_reg 
+        blif_clk_net g545_reg 
+        blif_clk_net g669_reg 
+        blif_clk_net g486_reg 
+        blif_clk_net g496_reg 
+        blif_clk_net g532_reg 
+        blif_clk_net g461_reg 
+        blif_clk_net g3_reg 
+        blif_clk_net g1_reg 
+        blif_clk_net g677_reg 
+        blif_clk_net g500_reg 
+        blif_clk_net g212_reg 
+        blif_clk_net g667_reg 
+        blif_clk_net g638_reg 
+        blif_clk_net g598_reg 
+        blif_clk_net g218_reg 
+        blif_clk_net g634_reg 
+        blif_clk_net g224_reg 
+        blif_clk_net g642_reg 
+        blif_clk_net g230_reg 
+        blif_clk_net g606_reg 
+        blif_clk_net g236_reg 
+        blif_clk_net g646_reg 
+        blif_clk_net g242_reg 
+        blif_clk_net g650_reg 
+        blif_clk_net g248_reg 
+        blif_clk_net g654_reg 
+        blif_clk_net g254_reg 
+        blif_clk_net g571_reg 
+        blif_clk_net g260_reg 
+        blif_clk_net g536_reg 
+        blif_clk_net g457_reg 
+        blif_clk_net g602_reg 
+        blif_clk_net g610_reg 
+        blif_clk_net g613_reg 
+        blif_clk_net g616_reg 
+        blif_clk_net g619_reg 
+        blif_clk_net g622_reg 
+        blif_clk_net g625_reg 
+        blif_clk_net g628_reg 
+        blif_clk_net g631_reg 
+        blif_clk_net g574_reg 
+        blif_clk_net g590_reg 
+        blif_clk_net g594_reg 
+        blif_clk_net g578_reg 
+        blif_clk_net g582_reg 
+        blif_clk_net g586_reg 
+        blif_clk_net g668_reg 
+        blif_clk_net g485_reg 
+        blif_clk_net g666_reg 
+        blif_clk_net g43_reg 
+        blif_reset_net 
+        blif_reset_net i_2356 
+        g89 
+        g89 i_1051 
+        g94 
+            ------------------------------
+            I/O Pin not connected in design
+            ------------------------------
+            g94 
+            g98 
+            g98 
+            g102 
+            g102 i_2355 
+            g107 
+            g107 
+            g301 
+            g301 
+            g306 
+            g306 
+            g310 
+            g310 
+            g314 
+            g314 
+            g319 
+            g319 
+            g557 
+            g557 i_281 
+            g558 
+            g558 i_312 
+            g559 
+            g559 i_611 
+            g560 
+            g560 i_321 
+            g561 
+            g561 i_627 
+            g562 
+            g562 i_642 
+            g563 
+            g563 i_265 
+            g564 
+            g564 i_209 
+            g705 
+            g705 i_213 
+            g639 
+            g639 i_3248 
+            g639 i_3183 
+            g639 i_3161 
+            g639 i_3139 
+            g639 i_3117 
+            g639 i_3095 
+            g639 i_2616 
+            g639 i_192 
+            g639 i_191 
+            g639 i_2525 
+            g639 i_3203 
+            g567 
+            g567 i_35 
+            g567 i_65 
+            g567 i_64 
+            g567 i_2352 
+            g567 g212_reg 
+            g45 
+            g45 i_217 
+            g42 
+            g42 i_222 
+            g39 
+            g39 i_226 
+            g702 
+            g702 i_61 
+            g702 g675_reg 
+            g32 
+            g32 i_231 
+            g38 
+            g38 i_234 
+            g46 
+            g46 i_239 
+            g36 
+            g36 i_243 
+            g47 
+            g47 i_246 
+            g40 
+            g40 i_249 
+            g37 
+            g37 i_252 
+            g41 
+            g41 i_257 
+            g22 
+            g22 i_261 
+            g44 
+            g44 i_266 
+            g23 
+            g23 i_271 
+            g2584 
+            g2584 i_1051 
+            g3222 
+            g3222 i_213 
+            g3600 
+            g3600 i_276 
+            g3600 g43_reg 
+            g4307 
+            g4307 i_280 
+            g4307 g485_reg 
+            g4321 
+            g4321 i_284 
+            g4321 g668_reg 
+            g4422 
+            g4422 i_209 
+            g4422 i_564 
+            g4809 
+            g4809 i_212 
+            g5137 
+            g5137 i_276 
+            g5468 
+            g5468 i_280 
+            g5469 
+            g5469 i_284 
+            g5692 
+            g5692 
+            g6282 
+            g6282 i_34 
+            g6282 i_128 
+            g6284 
+            g6284 i_4028 
+            g6360 
+            g6360 i_4529 
+            g6362 
+            g6362 i_4337 
+            g6364 
+            g6364 i_3681 
+            g6366 
+            g6366 i_4166 
+            g6368 
+            g6368 i_3939 
+            g6370 
+            g6370 i_5333 
+            g6372 
+            g6372 i_4917 
+            g6374 
+            g6374 i_4440 
+            g6728 
+            g6728 
+            g1290 
+            g1290 g666_reg 
+            g4121 
+            g4121 i_64 
+            g4121 i_3598 
+            g4108 
+            g4108 i_217 
+            g4108 i_5840 
+            g4108 i_5856 
+            g4108 g667_reg 
+            g4106 
+            g4106 i_222 
+            g4106 g663_reg 
+            g4106 g665_reg 
+            g4103 
+            g4103 i_226 
+            g4103 i_7 
+            g4103 g689_reg 
+            g1293 
+            g1293 i_61 
+            g1293 g699_reg 
+            g4099 
+            g4099 i_231 
+            g4099 i_55 
+            g4099 g685_reg 
+            g4102 
+            g4102 i_234 
+            g4102 i_3838 
+            g4102 g688_reg 
+            g4109 
+            g4109 i_239 
+            g4109 g666_reg 
+            g4100 
+            g4100 i_243 
+            g4100 i_7 
+            g4112 
+            g4112 i_246 
+            g4112 i_2351 
+            g4105 
+            g4105 i_249 
+            g4105 i_16 
+            g4105 g698_reg 
+            g4101 
+            g4101 i_252 
+            g4101 i_3838 
+            g4101 g687_reg 
+            g4110 
+            g4110 i_257 
+            g4110 i_714 
+            g4110 i_673 
+            g4110 i_2353 
+            g4104 
+            g4104 i_261 
+            g4104 i_3755 
+            g4104 i_2354 
+            g4107 
+            g4107 i_266 
+            g4098 
+            g4098 i_271 
+            Unplaced I/O Pins 
+        Floating I/O Pins 
+    I/O Pins connected to Non-IO Insts 
+
+==============================
+Unplaced IO Pads
+==============================
+Unplaced I/O Pads: 0 
+
+==============================
+Power/Ground pin connectivity
+==============================
+    Floating Power Ground terms 0 
+    Power/Ground pins connected to non Power/Ground net 0 
+    Power pin connected to Ground net 0 
+    Ground pin connected to Power net 0 
+        1) Number of error=0 & warning=0.
+
+==============================
+Top level Floorplan Check
+==============================
+Off-Grid Horizontal Tracks: 0 
+Off-Grid Vertical Tracks: 0 
+Placement grid on Mfg. grid: FALSE 
+User grid a multiple of Mfg. grid: FALSE 
+User grid a multiple of Mfg. grid: FALSE 
+Core Row grid not a multiple of Mfg. grid: 0 
+Horizontal GCell Grid off Mfg. grid: 0 
+Vertical GCell Grid off Mfg. grid: 0 
+AreaIO rows not on core-grid: 0 
+BlackBoxes Off Mfg. Grid: 0 
+Blocks Off Mfg. Grid: 0 
+BlackBoxes Off placement Grid: 0 
+Blocks off placement Grid: 0 
+Instances not snapped to row site: 0 
+Instances not on Mfg. Grid: 0 
+PrePlaced hard-macro pins not on routing grid: 0 
+    ------------------------------
+    Unplaced Io Pins
+    ------------------------------
+    blif_clk_net 
+    blif_reset_net 
+    g89 
+        ------------------------------
+        Floating/Unconnected IO Pins
+        ------------------------------
+        g94 
+        g94 
+        g98 
+        g98 
+        g102 
+        g107 
+        g107 
+        g301 
+        g301 
+        g306 
+        g306 
+        g310 
+        g310 
+        g314 
+        g314 
+        g319 
+        g319 
+        g557 
+        g558 
+        g559 
+        g560 
+        g561 
+        g562 
+        g563 
+        g564 
+        g705 
+        g639 
+        g567 
+        g45 
+        g42 
+        g39 
+        g702 
+        g32 
+        g38 
+        g46 
+        g36 
+        g47 
+        g40 
+        g37 
+        g41 
+        g22 
+        g44 
+        g23 
+        g2584 
+        g3222 
+        g3600 
+        g4307 
+        g4321 
+        g4422 
+        g4809 
+        g5137 
+        g5468 
+        g5469 
+        g5692 
+        g5692 
+        g6282 
+        g6284 
+        g6360 
+        g6362 
+        g6364 
+        g6366 
+        g6368 
+        g6370 
+        g6372 
+        g6374 
+        g6728 
+        g6728 
+        g1290 
+        g4121 
+        g4108 
+        g4106 
+        g4103 
+        g1293 
+        g4099 
+        g4102 
+        g4109 
+        g4100 
+        g4112 
+        g4105 
+        g4101 
+        g4110 
+        g4104 
+        g4107 
+        g4098 
+        Floating/Unconnected IO Pins 10 
+    Unplaced Io Pins 77 
+IO Pin off Mfg. grid: 0 
+IO Pin outside Die area: 0 
+Overlapping IO pins: 0 
+IO Pin off track: 0 
+Modules with off-grid Constraints: 0 
+Groups with off-grid Constraints: 0 
+Floating/Unconnected Ptn Pins: 0 
+Partition Pin off M. Grid: 0 
+Unplaced Partition Pins: 0 
+Partition Pin outside Partition box: 0 
+Overlapping Partition Pins: 0 
+Partition Pin Off-Track: 0 
+PartitionPower Domain off Grid: 0 
+PreRoute not on Mfg. grid: 0 
+Off Track Pre-Routes: 0 
+Off Grid Power/Ground Pre-routes: 0 

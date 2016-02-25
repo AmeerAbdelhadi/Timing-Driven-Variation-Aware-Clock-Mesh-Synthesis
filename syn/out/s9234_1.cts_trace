@@ -1,0 +1,189 @@
+
+
+
+
+
+Tracing Clock blif_clk_net
+
+****** Clock Tree (blif_clk_net) Structure
+Nr. Subtrees                   : 1
+Nr. Sinks                      : 145
+Nr.          Rising  Sync Pins : 145
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+DFFSR (CLK)                             145
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (blif_clk_net) Cell: (EMPTY) Net: (blif_clk_net) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 145
+          Nr. of     Rising  Sync Pins  : 145
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock blif_clk_net
+*DEPTH 0: blif_clk_net
+ (Sync)g690_reg/CLK
+ (Sync)g689_reg/CLK
+ (Sync)g698_reg/CLK
+ (Sync)g688_reg/CLK
+ (Sync)g687_reg/CLK
+ (Sync)g697_reg/CLK
+ (Sync)g685_reg/CLK
+ (Sync)g663_reg/CLK
+ (Sync)g664_reg/CLK
+ (Sync)g471_reg/CLK
+ (Sync)g699_reg/CLK
+ (Sync)g696_reg/CLK
+ (Sync)g524_reg/CLK
+ (Sync)g266_reg/CLK
+ (Sync)g662_reg/CLK
+ (Sync)g658_reg/CLK
+ (Sync)g694_reg/CLK
+ (Sync)g695_reg/CLK
+ (Sync)g197_reg/CLK
+ (Sync)g204_reg/CLK
+ (Sync)g691_reg/CLK
+ (Sync)g205_reg/CLK
+ (Sync)g512_reg/CLK
+ (Sync)g269_reg/CLK
+ (Sync)g665_reg/CLK
+ (Sync)g478_reg/CLK
+ (Sync)g279_reg/CLK
+ (Sync)g277_reg/CLK
+ (Sync)g679_reg/CLK
+ (Sync)g678_reg/CLK
+ (Sync)g680_reg/CLK
+ (Sync)g508_reg/CLK
+ (Sync)g282_reg/CLK
+ (Sync)g551_reg/CLK
+ (Sync)g293_reg/CLK
+ (Sync)g453_reg/CLK
+ (Sync)g11_reg/CLK
+ (Sync)g675_reg/CLK
+ (Sync)g6_reg/CLK
+ (Sync)g692_reg/CLK
+ (Sync)g278_reg/CLK
+ (Sync)g283_reg/CLK
+ (Sync)g276_reg/CLK
+ (Sync)g280_reg/CLK
+ (Sync)g281_reg/CLK
+ (Sync)g541_reg/CLK
+ (Sync)g554_reg/CLK
+ (Sync)g297_reg/CLK
+ (Sync)g449_reg/CLK
+ (Sync)g15_reg/CLK
+ (Sync)g10_reg/CLK
+ (Sync)g693_reg/CLK
+ (Sync)g207_reg/CLK
+ (Sync)g208_reg/CLK
+ (Sync)g209_reg/CLK
+ (Sync)g210_reg/CLK
+ (Sync)g211_reg/CLK
+ (Sync)g206_reg/CLK
+ (Sync)g445_reg/CLK
+ (Sync)g441_reg/CLK
+ (Sync)g520_reg/CLK
+ (Sync)g25_reg/CLK
+ (Sync)g18_reg/CLK
+ (Sync)g682_reg/CLK
+ (Sync)g516_reg/CLK
+ (Sync)g19_reg/CLK
+ (Sync)g14_reg/CLK
+ (Sync)g681_reg/CLK
+ (Sync)g437_reg/CLK
+ (Sync)g29_reg/CLK
+ (Sync)g24_reg/CLK
+ (Sync)g683_reg/CLK
+ (Sync)g465_reg/CLK
+ (Sync)g402_reg/CLK
+ (Sync)g406_reg/CLK
+ (Sync)g410_reg/CLK
+ (Sync)g414_reg/CLK
+ (Sync)g418_reg/CLK
+ (Sync)g422_reg/CLK
+ (Sync)g426_reg/CLK
+ (Sync)g430_reg/CLK
+ (Sync)g434_reg/CLK
+ (Sync)g528_reg/CLK
+ (Sync)g33_reg/CLK
+ (Sync)g28_reg/CLK
+ (Sync)g684_reg/CLK
+ (Sync)g489_reg/CLK
+ (Sync)g492_reg/CLK
+ (Sync)g504_reg/CLK
+ (Sync)g548_reg/CLK
+ (Sync)g48_reg/CLK
+ (Sync)g672_reg/CLK
+ (Sync)g7_reg/CLK
+ (Sync)g2_reg/CLK
+ (Sync)g676_reg/CLK
+ (Sync)g545_reg/CLK
+ (Sync)g669_reg/CLK
+ (Sync)g486_reg/CLK
+ (Sync)g496_reg/CLK
+ (Sync)g532_reg/CLK
+ (Sync)g461_reg/CLK
+ (Sync)g3_reg/CLK
+ (Sync)g1_reg/CLK
+ (Sync)g677_reg/CLK
+ (Sync)g500_reg/CLK
+ (Sync)g212_reg/CLK
+ (Sync)g667_reg/CLK
+ (Sync)g638_reg/CLK
+ (Sync)g598_reg/CLK
+ (Sync)g218_reg/CLK
+ (Sync)g634_reg/CLK
+ (Sync)g224_reg/CLK
+ (Sync)g642_reg/CLK
+ (Sync)g230_reg/CLK
+ (Sync)g606_reg/CLK
+ (Sync)g236_reg/CLK
+ (Sync)g646_reg/CLK
+ (Sync)g242_reg/CLK
+ (Sync)g650_reg/CLK
+ (Sync)g248_reg/CLK
+ (Sync)g654_reg/CLK
+ (Sync)g254_reg/CLK
+ (Sync)g571_reg/CLK
+ (Sync)g260_reg/CLK
+ (Sync)g536_reg/CLK
+ (Sync)g457_reg/CLK
+ (Sync)g602_reg/CLK
+ (Sync)g610_reg/CLK
+ (Sync)g613_reg/CLK
+ (Sync)g616_reg/CLK
+ (Sync)g619_reg/CLK
+ (Sync)g622_reg/CLK
+ (Sync)g625_reg/CLK
+ (Sync)g628_reg/CLK
+ (Sync)g631_reg/CLK
+ (Sync)g574_reg/CLK
+ (Sync)g590_reg/CLK
+ (Sync)g594_reg/CLK
+ (Sync)g578_reg/CLK
+ (Sync)g582_reg/CLK
+ (Sync)g586_reg/CLK
+ (Sync)g668_reg/CLK
+ (Sync)g485_reg/CLK
+ (Sync)g666_reg/CLK
+ (Sync)g43_reg/CLK

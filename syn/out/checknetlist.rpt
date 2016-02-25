@@ -1,0 +1,38 @@
+############################################################################
+# First Encounter Netlist Design Rule Check
+# Sun May  3 23:19:23 2009
+############################################################################
+Design: s9234_1
+
+------ Design Summary:
+Total Standard Cell Number   (cells) : 793
+Total Block Cell Number      (cells) : 0
+Total I/O Pad Cell Number    (cells) : 0
+Total Standard Cell Area     ( um^2) : 2998.36
+Total Block Cell Area        ( um^2) : 0.00
+Total I/O Pad Cell Area      ( um^2) : 0.00
+
+------ Design Statistics:
+
+Number of Instances            : 793
+Number of Nets                 : 835
+Average number of Pins per Net : 3.22
+Maximum number of Pins in Net  : 146
+
+------ I/O Port summary
+
+Number of Primary I/O Ports    : 77
+Number of Input Ports          : 38
+Number of Output Ports         : 39
+Number of Bidirectional Ports  : 0
+Number of Power/Ground Ports   : 0
+
+
+
+------------------------------------------------------------
+Detail report:
+
+
+------ I/O Pad/Port Checking
+
+

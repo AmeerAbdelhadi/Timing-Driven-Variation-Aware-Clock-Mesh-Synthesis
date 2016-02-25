@@ -1,0 +1,37 @@
+****************************************************************
+*                                                              *
+*   Copyright (c)  Cadence Design Systems, Inc.  1994 - 2005.  *
+*                     All rights reserved.                     *
+*                                                              *
+* Cadence acknowledges trademarks or registered trademarks of  *
+* other organizations for their respective products and        *
+* services.                                                    *
+*                                                              *
+* This program contains confidential, trade secret information *
+* of Cadence Design Systems, Inc.  Any reproduction, use or    *
+* disclosure of this program, including any attempt to obtain  *
+* a human-readable version of this program, without the        *
+* express, prior written consent of Cadence Design Systems,    *
+* Inc. is strictly prohibited.                                 *
+*                                                              *
+* U.S. GOVERNMENT END USERS:  This program is a "commercial    *
+* item" as that term is defined at 48 C.F.R. 2.101 (OCT 1995), *
+* consisting of "commercial computer software" and "commercial *
+* computer software documentation" as such terms are used in   *
+* 48 C.F.R. 12.212 (SEPT 1995).  Consistent with 48 C.F.R. 212 *
+* and 48 C.F.R. 227.7202-1 through 227.7202-4 (JUNE 1995), all *
+* U.S. Government End Users acquire the program with only      *
+* those rights set forth herein.                               *
+*                                                              *
+*                 Cadence Design Systems, Inc.                 *
+*                    2655 Seely Avenue                         *
+*                   San Jose, CA 95134,  USA                   *
+*                                                              *
+*      bgx_shell    v05.17-s013+1    Feb  5 2007 03:22:26      *
+*                                                              *
+* Options  -BGX                                                *
+*                                                              *
+* Host apollo                     Tue Sep 15 02:13:43 IST 2009 *
+*                                                              *
+****************************************************************
+ambiguous command name "generate_": generate_net_budgets generate_supply_rails_on_rows generate_uniq_name

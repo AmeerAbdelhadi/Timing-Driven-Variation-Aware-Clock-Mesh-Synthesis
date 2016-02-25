@@ -1,0 +1,209 @@
+<graph>
+  <attribute name="regsn" value="8" />
+  <attribute name="polygon" value="20.140 20.140 36.860 20.140 36.860 32.490 20.140 32.490 20.140 20.140" />
+  <attribute name="label" value="(20.140,20.140)\n(36.860,32.490)" />
+  <node id="X_1_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="32.680 22.610 36.860 22.610 36.860 25.080 32.680 25.080 32.680 22.610" />
+    <attribute name="label" value="X_1_reg\n(32.680,22.610)(36.860,25.080)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="X_1_reg" to="X_6_reg">
+    <attribute name="maxsl" value="0.315" />
+    <attribute name="minsl" value="0.512" />
+    <attribute name="label" value="0.315\n0.512" />
+  </edge>
+  <edge from="X_1_reg" to="X_5_reg">
+    <attribute name="maxsl" value="0.401" />
+    <attribute name="minsl" value="0.450" />
+    <attribute name="label" value="0.401\n0.450" />
+  </edge>
+  <edge from="X_1_reg" to="X_3_reg">
+    <attribute name="maxsl" value="0.579" />
+    <attribute name="minsl" value="0.315" />
+    <attribute name="label" value="0.579\n0.315" />
+  </edge>
+  <edge from="X_1_reg" to="X_7_reg">
+    <attribute name="maxsl" value="0.210" />
+    <attribute name="minsl" value="0.585" />
+    <attribute name="label" value="0.210\n0.585" />
+  </edge>
+  <edge from="X_1_reg" to="X_4_reg">
+    <attribute name="maxsl" value="0.464" />
+    <attribute name="minsl" value="0.394" />
+    <attribute name="label" value="0.464\n0.394" />
+  </edge>
+  <edge from="X_1_reg" to="X_8_reg">
+    <attribute name="maxsl" value="0.124" />
+    <attribute name="minsl" value="0.654" />
+    <attribute name="label" value="0.124\n0.654" />
+  </edge>
+  <edge from="X_1_reg" to="X_2_reg">
+    <attribute name="maxsl" value="0.599" />
+    <attribute name="minsl" value="0.313" />
+    <attribute name="label" value="0.599\n0.313" />
+  </edge>
+  <node id="X_2_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="25.460 20.140 29.640 20.140 29.640 22.610 25.460 22.610 25.460 20.140" />
+    <attribute name="label" value="X_2_reg\n(25.460,20.140)(29.640,22.610)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="X_2_reg" to="X_4_reg">
+    <attribute name="maxsl" value="0.459" />
+    <attribute name="minsl" value="0.403" />
+    <attribute name="label" value="0.459\n0.403" />
+  </edge>
+  <edge from="X_2_reg" to="X_5_reg">
+    <attribute name="maxsl" value="0.396" />
+    <attribute name="minsl" value="0.459" />
+    <attribute name="label" value="0.396\n0.459" />
+  </edge>
+  <edge from="X_2_reg" to="X_6_reg">
+    <attribute name="maxsl" value="0.310" />
+    <attribute name="minsl" value="0.521" />
+    <attribute name="label" value="0.310\n0.521" />
+  </edge>
+  <edge from="X_2_reg" to="X_7_reg">
+    <attribute name="maxsl" value="0.205" />
+    <attribute name="minsl" value="0.594" />
+    <attribute name="label" value="0.205\n0.594" />
+  </edge>
+  <edge from="X_2_reg" to="X_8_reg">
+    <attribute name="maxsl" value="0.119" />
+    <attribute name="minsl" value="0.663" />
+    <attribute name="label" value="0.119\n0.663" />
+  </edge>
+  <edge from="X_2_reg" to="X_3_reg">
+    <attribute name="maxsl" value="0.575" />
+    <attribute name="minsl" value="0.324" />
+    <attribute name="label" value="0.575\n0.324" />
+  </edge>
+  <node id="X_3_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="28.500 22.610 32.680 22.610 32.680 25.080 28.500 25.080 28.500 22.610" />
+    <attribute name="label" value="X_3_reg\n(28.500,22.610)(32.680,25.080)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="X_3_reg" to="X_4_reg">
+    <attribute name="maxsl" value="0.567" />
+    <attribute name="minsl" value="0.317" />
+    <attribute name="label" value="0.567\n0.317" />
+  </edge>
+  <edge from="X_3_reg" to="X_6_reg">
+    <attribute name="maxsl" value="0.418" />
+    <attribute name="minsl" value="0.435" />
+    <attribute name="label" value="0.418\n0.435" />
+  </edge>
+  <edge from="X_3_reg" to="X_7_reg">
+    <attribute name="maxsl" value="0.313" />
+    <attribute name="minsl" value="0.509" />
+    <attribute name="label" value="0.313\n0.509" />
+  </edge>
+  <edge from="X_3_reg" to="X_5_reg">
+    <attribute name="maxsl" value="0.504" />
+    <attribute name="minsl" value="0.373" />
+    <attribute name="label" value="0.504\n0.373" />
+  </edge>
+  <edge from="X_3_reg" to="X_8_reg">
+    <attribute name="maxsl" value="0.227" />
+    <attribute name="minsl" value="0.578" />
+    <attribute name="label" value="0.227\n0.578" />
+  </edge>
+  <node id="X_4_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="20.140 25.080 24.320 25.080 24.320 27.550 20.140 27.550 20.140 25.080" />
+    <attribute name="label" value="X_4_reg\n(20.140,25.080)(24.320,27.550)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="X_4_reg" to="X_5_reg">
+    <attribute name="maxsl" value="0.596" />
+    <attribute name="minsl" value="0.310" />
+    <attribute name="label" value="0.596\n0.310" />
+  </edge>
+  <edge from="X_4_reg" to="X_6_reg">
+    <attribute name="maxsl" value="0.510" />
+    <attribute name="minsl" value="0.372" />
+    <attribute name="label" value="0.510\n0.372" />
+  </edge>
+  <edge from="X_4_reg" to="X_8_reg">
+    <attribute name="maxsl" value="0.319" />
+    <attribute name="minsl" value="0.515" />
+    <attribute name="label" value="0.319\n0.515" />
+  </edge>
+  <edge from="X_4_reg" to="X_7_reg">
+    <attribute name="maxsl" value="0.405" />
+    <attribute name="minsl" value="0.446" />
+    <attribute name="label" value="0.405\n0.446" />
+  </edge>
+  <node id="X_5_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="20.140 22.610 24.320 22.610 24.320 25.080 20.140 25.080 20.140 22.610" />
+    <attribute name="label" value="X_5_reg\n(20.140,22.610)(24.320,25.080)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="X_5_reg" to="X_8_reg">
+    <attribute name="maxsl" value="0.402" />
+    <attribute name="minsl" value="0.454" />
+    <attribute name="label" value="0.402\n0.454" />
+  </edge>
+  <edge from="X_5_reg" to="X_6_reg">
+    <attribute name="maxsl" value="0.593" />
+    <attribute name="minsl" value="0.312" />
+    <attribute name="label" value="0.593\n0.312" />
+  </edge>
+  <edge from="X_5_reg" to="X_7_reg">
+    <attribute name="maxsl" value="0.489" />
+    <attribute name="minsl" value="0.385" />
+    <attribute name="label" value="0.489\n0.385" />
+  </edge>
+  <node id="X_6_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="23.180 30.020 27.360 30.020 27.360 32.490 23.180 32.490 23.180 30.020" />
+    <attribute name="label" value="X_6_reg\n(23.180,30.020)(27.360,32.490)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="X_6_reg" to="X_8_reg">
+    <attribute name="maxsl" value="0.497" />
+    <attribute name="minsl" value="0.380" />
+    <attribute name="label" value="0.497\n0.380" />
+  </edge>
+  <edge from="X_6_reg" to="X_7_reg">
+    <attribute name="maxsl" value="0.583" />
+    <attribute name="minsl" value="0.311" />
+    <attribute name="label" value="0.583\n0.311" />
+  </edge>
+  <node id="X_7_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="27.740 27.550 31.920 27.550 31.920 30.020 27.740 30.020 27.740 27.550" />
+    <attribute name="label" value="X_7_reg\n(27.740,27.550)(31.920,30.020)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+  <edge from="X_7_reg" to="X_8_reg">
+    <attribute name="maxsl" value="0.590" />
+    <attribute name="minsl" value="0.312" />
+    <attribute name="label" value="0.590\n0.312" />
+  </edge>
+  <node id="X_8_reg">
+    <attribute name="cmaxr" value="0.001726" />
+    <attribute name="cmaxf" value="0.001726" />
+    <attribute name="cminr" value="0.001726" />
+    <attribute name="cminf" value="0.001726" />
+    <attribute name="polygon" value="23.560 27.550 27.740 27.550 27.740 30.020 23.560 30.020 23.560 27.550" />
+    <attribute name="label" value="X_8_reg\n(23.560,27.550)(27.740,30.020)\ncmaxrf=[0.001726,0.001726]" />
+  </node>
+</graph>

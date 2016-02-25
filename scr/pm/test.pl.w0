@@ -1,0 +1,208 @@
+#!/usr/bin/perl
+
+# Ameer Abdel-hadi
+# ameer@tx.technion.ac.il
+
+use strict;	  # Install all strictures
+use warnings;	  # Show warnings
+use FileHandle;   # Use file handle, for dealing with files
+use Getopt::Long; # For command line options (flags)
+$|++;		  # Force auto flush of output buffer
+
+use GraphViz;	  # Use graph visualization module
+use GraphViz::XML;
+
+use Graph;
+use Graph::Reader::XML;
+use Graph::Writer::XML;
+use Graph::Writer::Dot;
+use Graph::Writer::GraphViz;
+
+use PostScript::Simple;
+
+use Math::Polygon::Calc;
+use Math::Polygon::Clip;
+use Math::Polygon::Transform;
+
+use List::Util qw(max min);
+
+####################
+
+my @interval1 = ([4,7],[8,9],[12,15],[17,20]);
+my @interval2 = intervalRem([17,18],@interval1);
+my $str1 = polygon_string(@interval1);
+my $str2 = polygon_string(@interval2);
+print "$str1\n$str2\n";
+
+my @segs = ([1,2,3],[4,5,6],[7,8,9]);
+my $str = segments2string("X",@segs);
+print "$str\n";
+
+my @poly2 = ([2,1],[6,1],[6,3],[10,3],[10,5],[8,5],[8,6],[10,6],[10,7],[9,7],[9,8],[7,8],[7,9],[10,9],[10,10],[5,10],[5,6],[6,6],[6,5],[4,5],[4,7],[2,7],[2,3],[4,3],[4,2],[2,2]);
+my @segs2 = polygon2segments("Y",@poly2);
+my $str3 = segments2string("Y",@segs2);
+print "$str3\n";
+
+print "\n#############\n";
+
+my @poly3 = ([2,1],[5,1],[5,5],[2,5]);
+my @poly4 = ([2,1],[6,1],[6,3],[4,3],[4,5],[2,5]);
+
+poly2grid(0.1,"X",@poly2);
+
+####################
+
+
+my $Inf;
+BEGIN {
+    local $SIG{FPE}; 
+    eval { $Inf = exp(999) } ||
+        eval { $Inf = 9**9**9 } ||
+            eval { $Inf = 1e+999 } ||
+                { $Inf = 1e+99 };  # Close enough for most practical purposes.
+}
+sub Infinity () { $Inf }
+
+
+sub _B () { 0 } # Begin.
+sub _E () { 1 } # End.
+sub _D () { 2 } #
+sub _X () { 0 } # Begin.
+sub _Y () { 1 } # End.
+
+sub intervalPiontInside	{my ($p,$i)=@_; return ( ($p>=($i->[_B])) && ($p<=($i->[_E])) ) }
+sub intervalHardLeft	{my ($a,$b)=@_; return (($a->[_E])<($b->[_B])) }
+sub intervalSoftLeft	{my ($a,$b)=@_; return ( (($a->[_B])<($b->[_B]))  && (($a->[_E])>=($b->[_B])) && (($a->[_E])<($b->[_E])) ) }
+sub intervalContain	{my ($a,$b)=@_; return ( (($a->[_E])>=($b->[_E])) && (($a->[_B])<=($b->[_B])) ) }
+sub intervalIntersect	{my ($a,$b)=@_; return (intervalPiontInside($a->[_B],$b)) || (intervalPiontInside($a->[_E],$b)) || (intervalPiontInside($b->[_B],$a))  }
+
+sub intervalAdd {
+	my ($newP,@intervals)=@_;
+
+	if (!scalar(@intervals)) { return ($newP) }
+
+	my $fstP=shift(@intervals);	
+
+	if (intervalHardLeft($newP,$fstP)) { return ($newP,$fstP,@intervals) }
+	if (intervalHardLeft($fstP,$newP)) { return ($fstP,intervalAdd($newP,@intervals)) }
+	return (intervalAdd( [min($newP->[_B],$fstP->[_B]),max($newP->[_E],$fstP->[_E])],@intervals) );
+}
+sub intervalRem {
+	my ($remP,@intervals)=@_;
+	my @newIntervals;
+	foreach my $inter (@intervals) {
+		if (intervalIntersect($remP,$inter)) {
+			if (intervalContain($remP,$inter)) {next;}
+			if (intervalContain($inter,$remP)) {
+				if ($remP->[_B] > $inter->[_B]) {push(@newIntervals,([$inter->[_B],$remP->[_B]]))}
+				if ($inter->[_E] > $remP->[_E]) {push(@newIntervals,([$remP->[_E],$inter->[_E]]))}
+				next;
+			}
+			if ($remP->[_B] < $inter->[_B]) {
+				push(@newIntervals,([$remP->[_E],$inter->[_E]]));
+			} else {
+				push(@newIntervals,([$inter->[_B],$remP->[_B]]));
+			}
+		} else {
+			push(@newIntervals, $inter)
+		}
+	}
+	return @newIntervals;
+}
+
+sub polygon2segments {
+	my ($type,@poly)=@_;
+	my $i1;
+	my $i2;
+	my @Segments;
+	
+	my $offset;
+	my $edges ;
+	
+	if ($type eq "X") {
+		$offset = _Y ; $edges = _X ;
+	} else {
+		$offset = _X ; $edges = _Y ;
+	}
+	
+	for ($i1 = 0 ; $i1 < scalar(@poly) ; $i1++) {
+		$i2 = cyclicAdd($i1,0,$#poly);
+		my @point1=@{$poly[$i1]};
+		my @point2=@{$poly[$i2]};
+		
+		if ($point1[$offset] == $point2[$offset]) { 
+			push (@Segments,[$point1[$edges],$point2[$edges],$point1[$offset]]);
+		}
+		
+	}
+	return @Segments;
+}
+
+sub segments2string {
+	my ($dir,@seg) = @_ ;
+	my $dirN = ($dir eq "X") ? "Y" : "X" ;
+	return join ', ', map { "[${dir}:$_->[_B]..$_->[_E] ${dirN}:$_->[_D]]" } @seg ;
+}
+
+sub poly2grid {
+	my ($pitch,$dir,@poly)=@_;
+	
+	my ($minx,$miny,$maxx,$maxy)=polygon_bbox(@poly);
+	my $min = ($dir eq "X") ? $miny : $minx;
+	my $max = ($dir eq "X") ? $maxy : $maxx;
+		
+	my @polySegments = polygon2segments($dir,@poly);
+	
+	my $strx=segments2string($dir,@polySegments);
+	print "$strx\n";
+	
+	my @addedSegments ;
+	for (my $offset = $min ; $offset <= $max ; $offset+=$pitch) {
+		push(@addedSegments,[undef,undef,$offset]) ;
+	}
+	
+	my @allSegments = (@polySegments,@addedSegments) ;
+	my @sortedSegments = sort {$a->[_D] <=> $b->[_D]} @allSegments ;
+	
+	my @cur_inter;
+	foreach my $seg (@sortedSegments) {
+		if (defined $seg->[_B]) {
+			if ($dir eq "Y") {
+				if ($seg->[_B] > $seg->[_E]) { ## openning
+					@cur_inter=intervalAdd([$seg->[_E],$seg->[_B]],@cur_inter);
+				} else { ##closing
+					@cur_inter=intervalRem([$seg->[_B],$seg->[_E]],@cur_inter);
+				}
+			} else {
+				if ($seg->[_E] > $seg->[_B]) { ## openning
+					@cur_inter=intervalAdd([$seg->[_B],$seg->[_E]],@cur_inter);
+				} else { ##closing
+					@cur_inter=intervalRem([$seg->[_E],$seg->[_B]],@cur_inter);
+				}			
+			}
+		} else {
+			my $str=polygon_string(@cur_inter);
+			print "$str,$seg->[_D]\n";
+		}
+	}
+}
+
+sub polygonMinMax {
+	my  @poly=@_;
+	my $min=    Infinity  ;
+	my $max=(-1*Infinity) ;
+	foreach my $point (@poly) {
+	
+	}
+}
+
+sub cyclicAdd {
+	my ($num,$min,$max)=@_;
+	if ($num == $max) {return $min}
+	return $num+1;
+}
+sub cyclicSub {
+	my ($num,$min,$max)=@_;
+	if ($num == $min) {return $max}
+	return $num-1;
+}

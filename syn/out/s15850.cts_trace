@@ -1,0 +1,177 @@
+
+
+
+
+
+Tracing Clock blif_clk_net
+
+****** Clock Tree (blif_clk_net) Structure
+Nr. Subtrees                   : 1
+Nr. Sinks                      : 133
+Nr.          Rising  Sync Pins : 133
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+SEN_FDPRBQ_D_1P5 (CK)                   133
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (blif_clk_net) Cell: (EMPTY) Net: (blif_clk_net) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 133
+          Nr. of     Rising  Sync Pins  : 133
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock blif_clk_net
+*DEPTH 0: blif_clk_net
+ (Sync)g865_reg/CK
+ (Sync)g255_reg/CK
+ (Sync)g258_reg/CK
+ (Sync)g261_reg/CK
+ (Sync)g262_reg/CK
+ (Sync)g256_reg/CK
+ (Sync)g259_reg/CK
+ (Sync)g254_reg/CK
+ (Sync)g253_reg/CK
+ (Sync)g260_reg/CK
+ (Sync)g257_reg/CK
+ (Sync)g875_reg/CK
+ (Sync)g1710_reg/CK
+ (Sync)g1217_reg/CK
+ (Sync)g1615_reg/CK
+ (Sync)g1621_reg/CK
+ (Sync)g1627_reg/CK
+ (Sync)g1630_reg/CK
+ (Sync)g1618_reg/CK
+ (Sync)g1624_reg/CK
+ (Sync)g572_reg/CK
+ (Sync)g554_reg/CK
+ (Sync)g575_reg/CK
+ (Sync)g869_reg/CK
+ (Sync)g1374_reg/CK
+ (Sync)g1212_reg/CK
+ (Sync)g305_reg/CK
+ (Sync)g1289_reg/CK
+ (Sync)g560_reg/CK
+ (Sync)g569_reg/CK
+ (Sync)g563_reg/CK
+ (Sync)g546_reg/CK
+ (Sync)g566_reg/CK
+ (Sync)g557_reg/CK
+ (Sync)g1633_reg/CK
+ (Sync)g1636_reg/CK
+ (Sync)g876_reg/CK
+ (Sync)g1361_reg/CK
+ (Sync)g782_reg/CK
+ (Sync)g790_reg/CK
+ (Sync)g778_reg/CK
+ (Sync)g549_reg/CK
+ (Sync)g1718_reg/CK
+ (Sync)g440_reg/CK
+ (Sync)g1206_reg/CK
+ (Sync)g878_reg/CK
+ (Sync)g1231_reg/CK
+ (Sync)g757_reg/CK
+ (Sync)g108_reg/CK
+ (Sync)g981_reg/CK
+ (Sync)g1346_reg/CK
+ (Sync)g1223_reg/CK
+ (Sync)g330_reg/CK
+ (Sync)g201_reg/CK
+ (Sync)g448_reg/CK
+ (Sync)g382_reg/CK
+ (Sync)g590_reg/CK
+ (Sync)g378_reg/CK
+ (Sync)g225_reg/CK
+ (Sync)g452_reg/CK
+ (Sync)g1336_reg/CK
+ (Sync)g971_reg/CK
+ (Sync)g444_reg/CK
+ (Sync)g416_reg/CK
+ (Sync)g786_reg/CK
+ (Sync)g1383_reg/CK
+ (Sync)g213_reg/CK
+ (Sync)g186_reg/CK
+ (Sync)g1400_reg/CK
+ (Sync)g1380_reg/CK
+ (Sync)g1362_reg/CK
+ (Sync)g237_reg/CK
+ (Sync)g1397_reg/CK
+ (Sync)g1377_reg/CK
+ (Sync)g231_reg/CK
+ (Sync)g431_reg/CK
+ (Sync)g312_reg/CK
+ (Sync)g309_reg/CK
+ (Sync)g315_reg/CK
+ (Sync)g1371_reg/CK
+ (Sync)g1368_reg/CK
+ (Sync)g1365_reg/CK
+ (Sync)g219_reg/CK
+ (Sync)g333_reg/CK
+ (Sync)g324_reg/CK
+ (Sync)g321_reg/CK
+ (Sync)g386_reg/CK
+ (Sync)g421_reg/CK
+ (Sync)g435_reg/CK
+ (Sync)g318_reg/CK
+ (Sync)g401_reg/CK
+ (Sync)g391_reg/CK
+ (Sync)g374_reg/CK
+ (Sync)g327_reg/CK
+ (Sync)g1386_reg/CK
+ (Sync)g406_reg/CK
+ (Sync)g411_reg/CK
+ (Sync)g426_reg/CK
+ (Sync)g976_reg/CK
+ (Sync)g1341_reg/CK
+ (Sync)g1218_reg/CK
+ (Sync)g396_reg/CK
+ (Sync)g369_reg/CK
+ (Sync)g766_reg/CK
+ (Sync)g243_reg/CK
+ (Sync)g207_reg/CK
+ (Sync)g192_reg/CK
+ (Sync)g1270_reg/CK
+ (Sync)g248_reg/CK
+ (Sync)g1265_reg/CK
+ (Sync)g1389_reg/CK
+ (Sync)g1275_reg/CK
+ (Sync)g986_reg/CK
+ (Sync)g1351_reg/CK
+ (Sync)g1300_reg/CK
+ (Sync)g1713_reg/CK
+ (Sync)g1250_reg/CK
+ (Sync)g1245_reg/CK
+ (Sync)g1304_reg/CK
+ (Sync)g1292_reg/CK
+ (Sync)g1260_reg/CK
+ (Sync)g770_reg/CK
+ (Sync)g197_reg/CK
+ (Sync)g1296_reg/CK
+ (Sync)g1255_reg/CK
+ (Sync)g774_reg/CK
+ (Sync)g1280_reg/CK
+ (Sync)g1227_reg/CK
+ (Sync)g1240_reg/CK
+ (Sync)g1235_reg/CK
+ (Sync)g762_reg/CK
+ (Sync)g1284_reg/CK
+ (Sync)g758_reg/CK

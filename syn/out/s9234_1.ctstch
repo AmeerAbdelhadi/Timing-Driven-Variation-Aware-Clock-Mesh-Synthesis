@@ -1,0 +1,50 @@
+#
+# FirstEncounter(TM) Clock Synthesis Technology File Format
+#
+
+#-- MacroModel --
+#MacroModel pin <pin> <maxRiseDelay> <minRiseDelay> <maxFallDelay> <minFallDelay> <inputCap>
+
+#-- Special Route Type --
+#RouteTypeName specialRoute
+#TopPreferredLayer 4
+#BottomPreferredLayer 3
+#PreferredExtraSpace 1
+#End
+
+#-- Regular Route Type --
+#RouteTypeName regularRoute
+#TopPreferredLayer 4
+#BottomPreferredLayer 3
+#PreferredExtraSpace 1
+#End
+
+#-- Clock Group --
+#ClkGroup
+#+ <clockName>
+
+#------------------------------------------------------------
+# Clock Root   : blif_clk_net
+# Clock Name   : vclk
+# Clock Period : 0.6925ns
+#------------------------------------------------------------
+AutoCTSRootPin blif_clk_net
+Period         0.6925ns
+MaxDelay       0.6925ns # default value
+MinDelay       0ns   # default value
+MaxSkew        300ps # default value
+SinkMaxTran    400ps # default value
+BufMaxTran     400ps # default value
+Buffer         INVX8 INVX4 INVX2 INVX1 
+NoGating       NO
+DetailReport   YES
+#SetDPinAsSync  NO
+#SetIoPinAsSync NO
+#RouteClkNet    YES
+#PostOpt        YES
+#OptAddBuffer   NO
+#RouteType      specialRoute
+#LeafRouteType  regularRoute
+ThroughPin
+END
+

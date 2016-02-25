@@ -1,0 +1,350 @@
+Mesh: mymesh (root blif_clk_net)
+
+  Connectivity Section
+
+    level  unrouted    routed   partial  odd part
+    -----  --------  --------  --------  --------
+    L0            0         1         0         0
+    L1            0         1         0         0
+    LCL           0        32         0         0
+
+    Net "blif_clk_net" is completely routed
+    Net "clk_mesh_drive_L01_N0" is completely routed
+    Net "mymesh_LOCAL_N0" is completely routed
+    Net "mymesh_LOCAL_N1" is completely routed
+    Net "mymesh_LOCAL_N2" is completely routed
+    Net "mymesh_LOCAL_N3" is completely routed
+    Net "mymesh_LOCAL_N4" is completely routed
+    Net "mymesh_LOCAL_N5" is completely routed
+    Net "mymesh_LOCAL_N6" is completely routed
+    Net "mymesh_LOCAL_N7" is completely routed
+    Net "mymesh_LOCAL_N8" is completely routed
+    Net "mymesh_LOCAL_N9" is completely routed
+    Net "mymesh_LOCAL_N10" is completely routed
+    Net "mymesh_LOCAL_N11" is completely routed
+    Net "mymesh_LOCAL_N12" is completely routed
+    Net "mymesh_LOCAL_N13" is completely routed
+    Net "mymesh_LOCAL_N14" is completely routed
+    Net "mymesh_LOCAL_N15" is completely routed
+    Net "mymesh_LOCAL_N16" is completely routed
+    Net "mymesh_LOCAL_N17" is completely routed
+    Net "mymesh_LOCAL_N18" is completely routed
+    Net "mymesh_LOCAL_N19" is completely routed
+    Net "mymesh_LOCAL_N20" is completely routed
+    Net "mymesh_LOCAL_N21" is completely routed
+    Net "mymesh_LOCAL_N22" is completely routed
+    Net "mymesh_LOCAL_N23" is completely routed
+    Net "mymesh_LOCAL_N24" is completely routed
+    Net "mymesh_LOCAL_N25" is completely routed
+    Net "mymesh_LOCAL_N26" is completely routed
+    Net "mymesh_LOCAL_N27" is completely routed
+    Net "mymesh_LOCAL_N28" is completely routed
+    Net "mymesh_LOCAL_N29" is completely routed
+    Net "mymesh_LOCAL_N30" is completely routed
+    Net "mymesh_LOCAL_N31" is completely routed
+
+
+  Delay Section
+
+               delay (r)       delay (f)      trans (r)  trans (f)
+    level    min  max skew   min  max skew     min  max   min  max
+    -----   ---- ---- ----  ---- ---- ----    ---- ----  ---- ----
+    L0         0    0    0     0    0    0      10   10    10   10
+    L1       236  236    0   172  172    0     265  265   158  158
+    LCL      283  284    1   241  242    0      26   27    19   20
+
+    Trigger  283  284    1                              Units (ps)
+
+    Level L0 (root)
+
+      Minimum rise delay:                    0.0ps (clk_mesh_drive/L01_B000/A)
+      Minimum fall delay:                    0.0ps (clk_mesh_drive/L01_B000/A)
+      Maximum rise delay:                    0.0ps (clk_mesh_drive/L01_B000/A)
+      Maximum fall delay:                    0.0ps (clk_mesh_drive/L01_B000/A)
+
+      Maximum net rise skew:                 0.0ps (blif_clk_net)
+      Maximum net fall skew:                 0.0ps (blif_clk_net)
+      Total level rise skew:                 0.0ps
+      Total level fall skew:                 0.0ps
+
+      Minimum driver rise transition:       10.0ps (blif_clk_net)
+      Minimum driver fall transition:       10.0ps (blif_clk_net)
+      Maximum driver rise transition:       10.0ps (blif_clk_net)
+      Maximum driver fall transition:       10.0ps (blif_clk_net)
+
+      Minimum receiver rise transition:     10.0ps (clk_mesh_drive/L01_B000/A)
+      Minimum receiver fall transition:     10.0ps (clk_mesh_drive/L01_B000/A)
+      Maximum receiver rise transition:     10.0ps (clk_mesh_drive/L01_B000/A)
+      Maximum receiver fall transition:     10.0ps (clk_mesh_drive/L01_B000/A)
+
+    Level L1 (mesh drive)
+
+      Minimum rise delay:                  235.7ps (mymesh_LOCAL_B016/A)
+      Minimum fall delay:                  172.0ps (mymesh_LOCAL_B016/A)
+      Maximum rise delay:                  236.2ps (mymesh_LOCAL_B018/A)
+      Maximum fall delay:                  172.4ps (mymesh_LOCAL_B028/A)
+
+      Maximum net rise skew:                 0.5ps (clk_mesh_drive_L01_N0)
+      Maximum net fall skew:                 0.4ps (clk_mesh_drive_L01_N0)
+      Total level rise skew:                 0.5ps
+      Total level fall skew:                 0.4ps
+
+      Minimum driver rise transition:      264.6ps (clk_mesh_drive/L01_B000/Y)
+      Minimum driver fall transition:      158.4ps (clk_mesh_drive/L01_B000/Y)
+      Maximum driver rise transition:      264.6ps (clk_mesh_drive/L01_B000/Y)
+      Maximum driver fall transition:      158.4ps (clk_mesh_drive/L01_B000/Y)
+
+      Minimum receiver rise transition:    264.6ps (mymesh_LOCAL_B031/A)
+      Minimum receiver fall transition:    158.4ps (mymesh_LOCAL_B026/A)
+      Maximum receiver rise transition:    264.7ps (mymesh_LOCAL_B028/A)
+      Maximum receiver fall transition:    158.5ps (mymesh_LOCAL_B031/A)
+
+    Level LCL (local leaf)
+
+      Minimum rise delay:                  283.3ps (X_15_reg/CLK)
+      Minimum fall delay:                  241.2ps (X_15_reg/CLK)
+      Maximum rise delay:                  283.9ps (X_7_reg/CLK)
+      Maximum fall delay:                  241.7ps (X_1_reg/CLK)
+      Minimum trigger delay (rise->rise):  283.3ps (X_15_reg/CLK)
+      Maximum trigger delay (rise->rise):  283.9ps (X_7_reg/CLK)
+
+      Maximum net rise skew:                 0.0ps (mymesh_LOCAL_N31)
+      Maximum net fall skew:                 0.0ps (mymesh_LOCAL_N31)
+      Total level rise skew:                 0.6ps
+      Total level fall skew:                 0.5ps
+      Total level trigger skew:              0.6ps
+
+      Minimum driver rise transition:       26.2ps (mymesh_LOCAL_B022/Y)
+      Minimum driver fall transition:       19.4ps (mymesh_LOCAL_B022/Y)
+      Maximum driver rise transition:       27.0ps (mymesh_LOCAL_B002/Y)
+      Maximum driver fall transition:       19.8ps (mymesh_LOCAL_B002/Y)
+
+      Minimum receiver rise transition:     26.2ps (X_24_reg/CLK)
+      Minimum receiver fall transition:     19.4ps (X_24_reg/CLK)
+      Maximum receiver rise transition:     27.0ps (X_12_reg/CLK)
+      Maximum receiver fall transition:     19.8ps (X_12_reg/CLK)
+
+
+
+  Power Section
+
+    Switching Period:     1000.00 ps
+    Switching Frequency:  1000.00 MHz
+    Supply Voltage:          1.00 V
+    Power:                   0.33 mW
+    Maximum Power:         100.00 mW
+
+    level  pin cap (pF)  wire cap (pF)  special  total cap (pF)  power (mW)
+    -----  ------------  -------------  -------  --------------  ----------
+    L0            0.005          0.006    0.0 %           0.011       0.011
+    L1            0.173          0.076   57.1 %           0.248       0.248
+    LCL           0.055          0.019    0.0 %           0.074       0.074
+    -----  ------------  -------------  -------  --------------  ----------
+    total         0.233          0.101   42.8 %           0.334       0.334
+
+  Structure Section
+
+    blif_clk_net (root)
+
+      Level: L0 (root)
+      Net: blif_clk_net
+      Nr. Buffer: 1
+
+      clk_mesh_drive/L01_B000 (A->Y) (buffer)
+
+        Level: L1 (mesh drive)
+        Net: clk_mesh_drive_L01_N0
+        Nr. Buffer: 32
+
+        mymesh_LOCAL_B000 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N0
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B001 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N1
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B002 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N2
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B003 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N3
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B004 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N4
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B005 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N5
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B006 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N6
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B007 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N7
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B008 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N8
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B009 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N9
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B010 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N10
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B011 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N11
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B012 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N12
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B013 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N13
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B014 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N14
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B015 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N15
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B016 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N16
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B017 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N17
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B018 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N18
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B019 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N19
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B020 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N20
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B021 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N21
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B022 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N22
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B023 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N23
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B024 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N24
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B025 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N25
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B026 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N26
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B027 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N27
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B028 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N28
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B029 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N29
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B030 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N30
+          Nr. Leaf: 1
+
+        mymesh_LOCAL_B031 (A->Y) (buffer)
+
+          Level: LCL (local drive)
+          Net: mymesh_LOCAL_N31
+          Nr. Leaf: 1
+

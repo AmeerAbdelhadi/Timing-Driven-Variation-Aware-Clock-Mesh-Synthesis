@@ -1,0 +1,333 @@
+Check Design Summary
+Generated Date: Thu Sep 24 21:03:06 2009
+Host Name: apollo
+
+
+==============================
+Top level Floorplan Check
+==============================
+Off-Grid Horizontal Tracks: 0 
+Off-Grid Vertical Tracks: 0 
+Placement grid on Mfg. grid: FALSE 
+User grid a multiple of Mfg. grid: FALSE 
+User grid a multiple of Mfg. grid: FALSE 
+Core Row grid not a multiple of Mfg. grid: 0 
+Horizontal GCell Grid off Mfg. grid: 0 
+Vertical GCell Grid off Mfg. grid: 0 
+AreaIO rows not on core-grid: 0 
+BlackBoxes Off Mfg. Grid: 0 
+Blocks Off Mfg. Grid: 0 
+BlackBoxes Off placement Grid: 0 
+Blocks off placement Grid: 0 
+Instances not snapped to row site: 0 
+Instances not on Mfg. Grid: 0 
+PrePlaced hard-macro pins not on routing grid: 0 
+    ------------------------------
+    Floating/Unconnected IO Pins
+    ------------------------------
+    CRC_OUT_9_0 
+    CRC_OUT_9_1 
+    CRC_OUT_9_2 
+    CRC_OUT_9_3 
+    CRC_OUT_9_4 
+    CRC_OUT_9_5 
+    CRC_OUT_9_6 
+    CRC_OUT_9_7 
+    CRC_OUT_9_8 
+    CRC_OUT_9_9 
+    CRC_OUT_9_10 
+    CRC_OUT_9_11 
+    CRC_OUT_9_12 
+    CRC_OUT_9_13 
+    CRC_OUT_9_14 
+    CRC_OUT_9_15 
+    CRC_OUT_9_16 
+    CRC_OUT_9_17 
+    CRC_OUT_9_18 
+    CRC_OUT_9_19 
+    CRC_OUT_9_20 
+    CRC_OUT_9_21 
+    CRC_OUT_9_22 
+    CRC_OUT_9_23 
+    CRC_OUT_9_24 
+    CRC_OUT_9_25 
+    CRC_OUT_9_26 
+    CRC_OUT_9_27 
+    CRC_OUT_9_28 
+    CRC_OUT_9_29 
+    CRC_OUT_9_30 
+    CRC_OUT_9_31 
+    CRC_OUT_8_0 
+    CRC_OUT_8_1 
+    CRC_OUT_8_2 
+    CRC_OUT_8_3 
+    CRC_OUT_8_4 
+    CRC_OUT_8_5 
+    CRC_OUT_8_6 
+    CRC_OUT_8_7 
+    CRC_OUT_8_8 
+    CRC_OUT_8_9 
+    CRC_OUT_8_10 
+    CRC_OUT_8_11 
+    CRC_OUT_8_12 
+    CRC_OUT_8_13 
+    CRC_OUT_8_14 
+    CRC_OUT_8_15 
+    CRC_OUT_8_16 
+    CRC_OUT_8_17 
+    CRC_OUT_8_18 
+    CRC_OUT_8_19 
+    CRC_OUT_8_20 
+    CRC_OUT_8_21 
+    CRC_OUT_8_22 
+    CRC_OUT_8_23 
+    CRC_OUT_8_24 
+    CRC_OUT_8_25 
+    CRC_OUT_8_26 
+    CRC_OUT_8_27 
+    CRC_OUT_8_28 
+    CRC_OUT_8_29 
+    CRC_OUT_8_30 
+    CRC_OUT_8_31 
+    CRC_OUT_7_0 
+    CRC_OUT_7_1 
+    CRC_OUT_7_2 
+    CRC_OUT_7_3 
+    CRC_OUT_7_4 
+    CRC_OUT_7_5 
+    CRC_OUT_7_6 
+    CRC_OUT_7_7 
+    CRC_OUT_7_8 
+    CRC_OUT_7_9 
+    CRC_OUT_7_10 
+    CRC_OUT_7_11 
+    CRC_OUT_7_12 
+    CRC_OUT_7_13 
+    CRC_OUT_7_14 
+    CRC_OUT_7_15 
+    CRC_OUT_7_16 
+    CRC_OUT_7_17 
+    CRC_OUT_7_18 
+    CRC_OUT_7_19 
+    CRC_OUT_7_20 
+    CRC_OUT_7_21 
+    CRC_OUT_7_22 
+    CRC_OUT_7_23 
+    CRC_OUT_7_24 
+    CRC_OUT_7_25 
+    CRC_OUT_7_26 
+    CRC_OUT_7_27 
+    CRC_OUT_7_28 
+    CRC_OUT_7_29 
+    CRC_OUT_7_30 
+    CRC_OUT_7_31 
+    CRC_OUT_6_0 
+    CRC_OUT_6_1 
+    CRC_OUT_6_2 
+    CRC_OUT_6_3 
+    CRC_OUT_6_4 
+    CRC_OUT_6_5 
+    CRC_OUT_6_6 
+    CRC_OUT_6_7 
+    CRC_OUT_6_8 
+    CRC_OUT_6_9 
+    CRC_OUT_6_10 
+    CRC_OUT_6_11 
+    CRC_OUT_6_12 
+    CRC_OUT_6_13 
+    CRC_OUT_6_14 
+    CRC_OUT_6_15 
+    CRC_OUT_6_16 
+    CRC_OUT_6_17 
+    CRC_OUT_6_18 
+    CRC_OUT_6_19 
+    CRC_OUT_6_20 
+    CRC_OUT_6_21 
+    CRC_OUT_6_22 
+    CRC_OUT_6_23 
+    CRC_OUT_6_24 
+    CRC_OUT_6_25 
+    CRC_OUT_6_26 
+    CRC_OUT_6_27 
+    CRC_OUT_6_28 
+    CRC_OUT_6_29 
+    CRC_OUT_6_30 
+    CRC_OUT_6_31 
+    CRC_OUT_5_0 
+    CRC_OUT_5_1 
+    CRC_OUT_5_2 
+    CRC_OUT_5_3 
+    CRC_OUT_5_4 
+    CRC_OUT_5_5 
+    CRC_OUT_5_6 
+    CRC_OUT_5_7 
+    CRC_OUT_5_8 
+    CRC_OUT_5_9 
+    CRC_OUT_5_10 
+    CRC_OUT_5_11 
+    CRC_OUT_5_12 
+    CRC_OUT_5_13 
+    CRC_OUT_5_14 
+    CRC_OUT_5_15 
+    CRC_OUT_5_16 
+    CRC_OUT_5_17 
+    CRC_OUT_5_18 
+    CRC_OUT_5_19 
+    CRC_OUT_5_20 
+    CRC_OUT_5_21 
+    CRC_OUT_5_22 
+    CRC_OUT_5_23 
+    CRC_OUT_5_24 
+    CRC_OUT_5_25 
+    CRC_OUT_5_26 
+    CRC_OUT_5_27 
+    CRC_OUT_5_28 
+    CRC_OUT_5_29 
+    CRC_OUT_5_30 
+    CRC_OUT_5_31 
+    CRC_OUT_4_0 
+    CRC_OUT_4_1 
+    CRC_OUT_4_2 
+    CRC_OUT_4_3 
+    CRC_OUT_4_4 
+    CRC_OUT_4_5 
+    CRC_OUT_4_6 
+    CRC_OUT_4_7 
+    CRC_OUT_4_8 
+    CRC_OUT_4_9 
+    CRC_OUT_4_10 
+    CRC_OUT_4_11 
+    CRC_OUT_4_12 
+    CRC_OUT_4_13 
+    CRC_OUT_4_14 
+    CRC_OUT_4_15 
+    CRC_OUT_4_16 
+    CRC_OUT_4_17 
+    CRC_OUT_4_18 
+    CRC_OUT_4_19 
+    CRC_OUT_4_20 
+    CRC_OUT_4_21 
+    CRC_OUT_4_22 
+    CRC_OUT_4_23 
+    CRC_OUT_4_24 
+    CRC_OUT_4_25 
+    CRC_OUT_4_26 
+    CRC_OUT_4_27 
+    CRC_OUT_4_28 
+    CRC_OUT_4_29 
+    CRC_OUT_4_30 
+    CRC_OUT_4_31 
+    CRC_OUT_3_0 
+    CRC_OUT_3_1 
+    CRC_OUT_3_2 
+    CRC_OUT_3_3 
+    CRC_OUT_3_4 
+    CRC_OUT_3_5 
+    CRC_OUT_3_6 
+    CRC_OUT_3_7 
+    CRC_OUT_3_8 
+    CRC_OUT_3_9 
+    CRC_OUT_3_10 
+    CRC_OUT_3_11 
+    CRC_OUT_3_12 
+    CRC_OUT_3_13 
+    CRC_OUT_3_14 
+    CRC_OUT_3_15 
+    CRC_OUT_3_16 
+    CRC_OUT_3_17 
+    CRC_OUT_3_18 
+    CRC_OUT_3_19 
+    CRC_OUT_3_20 
+    CRC_OUT_3_21 
+    CRC_OUT_3_22 
+    CRC_OUT_3_23 
+    CRC_OUT_3_24 
+    CRC_OUT_3_25 
+    CRC_OUT_3_26 
+    CRC_OUT_3_27 
+    CRC_OUT_3_28 
+    CRC_OUT_3_29 
+    CRC_OUT_3_30 
+    CRC_OUT_3_31 
+    CRC_OUT_2_0 
+    CRC_OUT_2_1 
+    CRC_OUT_2_2 
+    CRC_OUT_2_3 
+    CRC_OUT_2_4 
+    CRC_OUT_2_5 
+    CRC_OUT_2_6 
+    CRC_OUT_2_7 
+    CRC_OUT_2_8 
+    CRC_OUT_2_9 
+    CRC_OUT_2_10 
+    CRC_OUT_2_11 
+    CRC_OUT_2_12 
+    CRC_OUT_2_13 
+    CRC_OUT_2_14 
+    CRC_OUT_2_15 
+    CRC_OUT_2_16 
+    CRC_OUT_2_17 
+    CRC_OUT_2_18 
+    CRC_OUT_2_19 
+    CRC_OUT_2_20 
+    CRC_OUT_2_21 
+    CRC_OUT_2_22 
+    CRC_OUT_2_23 
+    CRC_OUT_2_24 
+    CRC_OUT_2_25 
+    CRC_OUT_2_26 
+    CRC_OUT_2_27 
+    CRC_OUT_2_28 
+    CRC_OUT_2_29 
+    CRC_OUT_2_30 
+    CRC_OUT_2_31 
+    CRC_OUT_1_0 
+    CRC_OUT_1_1 
+    CRC_OUT_1_2 
+    CRC_OUT_1_3 
+    CRC_OUT_1_4 
+    CRC_OUT_1_5 
+    CRC_OUT_1_6 
+    CRC_OUT_1_7 
+    CRC_OUT_1_8 
+    CRC_OUT_1_9 
+    CRC_OUT_1_10 
+    CRC_OUT_1_11 
+    CRC_OUT_1_12 
+    CRC_OUT_1_13 
+    CRC_OUT_1_14 
+    CRC_OUT_1_15 
+    CRC_OUT_1_16 
+    CRC_OUT_1_17 
+    CRC_OUT_1_18 
+    CRC_OUT_1_19 
+    CRC_OUT_1_20 
+    CRC_OUT_1_21 
+    CRC_OUT_1_22 
+    CRC_OUT_1_23 
+    CRC_OUT_1_24 
+    CRC_OUT_1_25 
+    CRC_OUT_1_26 
+    CRC_OUT_1_27 
+    CRC_OUT_1_28 
+    CRC_OUT_1_29 
+    CRC_OUT_1_30 
+    CRC_OUT_1_31 
+    Floating/Unconnected IO Pins 
+Unplaced Io Pins: 0 
+IO Pin off Mfg. grid: 0 
+IO Pin outside Die area: 0 
+Overlapping IO pins: 0 
+IO Pin off track: 0 
+Modules with off-grid Constraints: 0 
+Groups with off-grid Constraints: 0 
+Floating/Unconnected Ptn Pins: 0 
+Partition Pin off M. Grid: 0 
+Unplaced Partition Pins: 0 
+Partition Pin outside Partition box: 0 
+Overlapping Partition Pins: 0 
+Partition Pin Off-Track: 0 
+PartitionPower Domain off Grid: 0 
+PreRoute not on Mfg. grid: 0 
+Off Track Pre-Routes: 0 
+Off Grid Power/Ground Pre-routes: 0 

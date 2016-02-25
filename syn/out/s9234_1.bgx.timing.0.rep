@@ -1,0 +1,58 @@
++-------------------------------------------------------------------------+ 
+| Report              | report_timing                                     | 
+|---------------------+---------------------------------------------------| 
+| Options             | > /hp/ameer/cgs/syn2/out/s9234_1.bgx.timing.0.rep | 
++---------------------+---------------------------------------------------+ 
+| Date                | 20090503.210102                                   | 
+| Tool                | bgx_shell                                         | 
+| Release             | v5.17-s013                                        | 
+| Version             | Feb  5 2007 03:22:26                              | 
++---------------------+---------------------------------------------------+ 
+| Module              | s9234_1                                           | 
+| Timing              | LATE                                              | 
+| Slew Propagation    | WORST                                             | 
+| Operating Condition | typical                                           | 
+| PVT Mode            | max                                               | 
+| Tree Type           | worst_case                                        | 
+| Process             | 1.00                                              | 
+| Voltage             | 1.10                                              | 
+| Temperature         | 27.00                                             | 
+| time unit           | 1.00 ns                                           | 
+| capacitance unit    | 1.00 pF                                           | 
+| resistance unit     | 1.00 kOhm                                         | 
++-------------------------------------------------------------------------+ 
+Path 1: VIOLATED Setup Check with Pin g541_reg/CLK 
+Endpoint:   g541_reg/D (^) checked with  leading edge of 'vclk'
+Beginpoint: g24_reg/Q  (^) triggered by  leading edge of 'vclk'
+Other End Arrival Time           0.00
+- Setup                          0.08
++ Phase Shift                    0.69
+= Required Time                  0.61
+- Arrival Time                   0.63
+= Slack Time                    -0.02
+     Clock Rise Edge                       0.00
+     = Beginpoint Arrival Time             0.00
+     +------------------------------------------------------------------+ 
+     | Instance |      Arc       |  Cell   | Delay | Arrival | Required | 
+     |          |                |         |       |  Time   |   Time   | 
+     |----------+----------------+---------+-------+---------+----------| 
+     |          | blif_clk_net ^ |         |       |    0.00 |    -0.02 | 
+     | g24_reg  | CLK ^ -> Q ^   | DFFSR   |  0.13 |    0.13 |     0.11 | 
+     | i_3879   | B ^ -> Y ^     | XOR2X1  |  0.06 |    0.20 |     0.17 | 
+     | i_186    | B ^ -> Y v     | NOR2X1  |  0.02 |    0.22 |     0.20 | 
+     | i_199    | C v -> Y ^     | AOI21X1 |  0.02 |    0.25 |     0.22 | 
+     | i_57     | A ^ -> Y v     | NOR2X1  |  0.02 |    0.27 |     0.25 | 
+     | i_144    | C v -> Y ^     | AOI21X1 |  0.01 |    0.28 |     0.26 | 
+     | i_56     | A ^ -> Y v     | INVX1   |  0.03 |    0.31 |     0.29 | 
+     | i_3863   | A v -> Y ^     | XNOR2X1 |  0.04 |    0.35 |     0.33 | 
+     | i_37     | A ^ -> Y ^     | XNOR2X1 |  0.06 |    0.42 |     0.39 | 
+     | i_514    | A ^ -> Y v     | NAND2X1 |  0.03 |    0.44 |     0.42 | 
+     | i_59     | B v -> Y ^     | NAND2X1 |  0.02 |    0.46 |     0.44 | 
+     | i_712    | B ^ -> Y v     | NOR2X1  |  0.03 |    0.49 |     0.47 | 
+     | i_4305   | A v -> Y ^     | NAND2X1 |  0.03 |    0.52 |     0.50 | 
+     | i_10     | A ^ -> Y ^     | OR2X2   |  0.06 |    0.58 |     0.56 | 
+     | i_388    | C ^ -> Y v     | OAI21X1 |  0.02 |    0.61 |     0.59 | 
+     | i_5014   | A v -> Y ^     | NAND2X1 |  0.02 |    0.63 |     0.61 | 
+     | g541_reg | D ^            | DFFSR   |  0.00 |    0.63 |     0.61 | 
+     +------------------------------------------------------------------+ 
+

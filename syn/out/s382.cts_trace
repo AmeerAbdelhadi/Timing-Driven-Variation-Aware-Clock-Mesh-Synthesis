@@ -1,0 +1,65 @@
+
+
+
+
+
+Tracing Clock blif_clk_net
+
+****** Clock Tree (blif_clk_net) Structure
+Nr. Subtrees                   : 1
+Nr. Sinks                      : 21
+Nr.          Rising  Sync Pins : 21
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+DFFSR (CLK)                             21
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (blif_clk_net) Cell: (EMPTY) Net: (blif_clk_net) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 21
+          Nr. of     Rising  Sync Pins  : 21
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock blif_clk_net
+*DEPTH 0: blif_clk_net
+ (Sync)UC_10_reg/CLK
+ (Sync)UC_9_reg/CLK
+ (Sync)UC_8_reg/CLK
+ (Sync)UC_11_reg/CLK
+ (Sync)TESTL_reg/CLK
+ (Sync)UC_18_reg/CLK
+ (Sync)UC_17_reg/CLK
+ (Sync)UC_16_reg/CLK
+ (Sync)UC_19_reg/CLK
+ (Sync)C3_Q3_reg/CLK
+ (Sync)C3_Q0_reg/CLK
+ (Sync)C3_Q1_reg/CLK
+ (Sync)C3_Q2_reg/CLK
+ (Sync)FML_reg/CLK
+ (Sync)OLATCH_FEL_reg/CLK
+ (Sync)OLATCH_G1L_reg/CLK
+ (Sync)OLATCH_Y2L_reg/CLK
+ (Sync)OLATCHVUC_6_reg/CLK
+ (Sync)OLATCH_R1L_reg/CLK
+ (Sync)OLATCHVUC_5_reg/CLK
+ (Sync)OLATCH_G2L_reg/CLK
